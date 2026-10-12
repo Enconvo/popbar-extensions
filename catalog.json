@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T03:39:51.565Z",
+  "updatedAt": "2026-10-12T04:45:15.565Z",
   "entries": [
     {
       "id": "2do",
@@ -4070,7 +4070,7 @@
         "services": [],
         "shortcuts": [],
         "urlHosts": [],
-        "secrets": false,
+        "secrets": true,
         "dynamic": false,
         "auth": false
       },
@@ -7005,7 +7005,7 @@
         "services": [],
         "shortcuts": [],
         "urlHosts": [],
-        "secrets": false,
+        "secrets": true,
         "dynamic": false,
         "auth": false
       },
@@ -7181,7 +7181,7 @@
         "services": [],
         "shortcuts": [],
         "urlHosts": [],
-        "secrets": false,
+        "secrets": true,
         "dynamic": false,
         "auth": false
       },
@@ -8443,7 +8443,7 @@
         "services": [],
         "shortcuts": [],
         "urlHosts": [],
-        "secrets": false,
+        "secrets": true,
         "dynamic": false,
         "auth": false
       },
@@ -9010,7 +9010,7 @@
         "services": [],
         "shortcuts": [],
         "urlHosts": [],
-        "secrets": false,
+        "secrets": true,
         "dynamic": false,
         "auth": false
       },
@@ -9685,7 +9685,7 @@
         "services": [],
         "shortcuts": [],
         "urlHosts": [],
-        "secrets": false,
+        "secrets": true,
         "dynamic": false,
         "auth": false
       },
