@@ -1,0 +1,329 @@
+{
+  "$comment": "The sources scripts/build_catalog.ts (in the Enconvo popclip module) lists. Each is pinned to a commit and reviewed there; mirrorIcons only where the licence lets the catalog copy icon images.",
+  "sources": [
+    {
+      "repo": "pilotmoon/PopClip-Extensions",
+      "commit": "ceab6507aa0b362aa152a80ca97651dcb5949ab6",
+      "author": "Nick Moore and contributors",
+      "license": "MIT",
+      "dir": "source",
+      "mirrorIcons": true
+    },
+    {
+      "repo": "ttscoff/popclipextensions",
+      "commit": "ae6b41037f621845afb198275f16ac8ef935e9d5",
+      "author": "Brett Terpstra",
+      "license": "MIT",
+      "category": "Text Tools",
+      "extensions": [
+        {
+          "path": "Twitterify.popclipext"
+        },
+        {
+          "path": "Outdent.popclipext"
+        },
+        {
+          "path": "Slugify.popclipext"
+        },
+        {
+          "path": "PoorText.popclipext"
+        },
+        {
+          "path": "Sum.popclipext"
+        },
+        {
+          "path": "IncrementTemplated.popclipext"
+        },
+        {
+          "path": "Markdown2Mindmap.popclipext"
+        },
+        {
+          "path": "Code.popclipext"
+        },
+        {
+          "path": "Blockquote.popclipext"
+        },
+        {
+          "path": "Comment.popclipext"
+        },
+        {
+          "path": "Editor.popclipext"
+        },
+        {
+          "path": "HardWrap.popclipext"
+        },
+        {
+          "path": "nvUltra.popclipext",
+          "category": "Notes & Writing"
+        }
+      ],
+      "mirrorIcons": true
+    },
+    {
+      "repo": "ttscoff/popclipextensions",
+      "commit": "db38262efdb7a8003e5b56ae6231ad305c7d3e62",
+      "author": "Brett Terpstra",
+      "license": "MIT",
+      "category": "Text Tools",
+      "extensions": [
+        {
+          "path": "MDList.popclipext"
+        }
+      ],
+      "mirrorIcons": true
+    },
+    {
+      "repo": "ttscoff/popclipextensions",
+      "commit": "aad8fe85689ca297d5f5ef132ecbc6cced788a38",
+      "author": "Brett Terpstra",
+      "license": "MIT",
+      "category": "Text Tools",
+      "extensions": [
+        {
+          "path": "CriticMarkup.popclipext"
+        }
+      ],
+      "mirrorIcons": true
+    },
+    {
+      "repo": "dofy/PopClip-Extensions",
+      "commit": "77b970cf8da88d65b78c23035a65b2318282bfca",
+      "author": "Seven Yu",
+      "license": "MIT",
+      "category": "Text Tools",
+      "extensions": [
+        {
+          "path": "src/ray.so.popclipext"
+        },
+        {
+          "path": "src/MosaicText.popclipext"
+        },
+        {
+          "path": "src/CommentSwitcher.popclipext"
+        },
+        {
+          "path": "src/FormatJSON.popclipext"
+        },
+        {
+          "path": "src/RGB_HEX.popclipext"
+        },
+        {
+          "path": "src/GeneratePassword.popclipext"
+        }
+      ],
+      "mirrorIcons": true
+    },
+    {
+      "repo": "dofy/PopClip-Extensions",
+      "commit": "cb750361ddf79918a6d0e8eb44eef5fc9e0e9a2e",
+      "author": "Seven Yu",
+      "license": "MIT",
+      "category": "Search",
+      "extensions": [
+        {
+          "path": "src/OpenGitHubRepo.popclipext"
+        }
+      ],
+      "mirrorIcons": true
+    },
+    {
+      "repo": "BoltAI/popclip-extensions",
+      "commit": "b90453516f937e47a77ee05ad8e812a6825a7eff",
+      "author": "BoltAI",
+      "license": "MIT",
+      "category": "AI",
+      "extensions": [
+        {
+          "path": "source/Ask BoltAI.popclipext"
+        },
+        {
+          "path": "source/BoltAI.popclipext"
+        }
+      ],
+      "mirrorIcons": true
+    },
+    {
+      "repo": "metedata/Remarc",
+      "commit": "3f6efe12d52d76ef861a12006a37da842ded3f0c",
+      "author": "Mete Polat",
+      "license": "MIT",
+      "category": "AI",
+      "extensions": [
+        {
+          "path": "popclip/Remarc.popclipext"
+        }
+      ],
+      "mirrorIcons": true
+    },
+    {
+      "repo": "alperkara20/popclip-rhymes",
+      "commit": "13d9bf30eb962e8e45c74d461b3c75ae9d921b5a",
+      "author": "Alper Kara",
+      "license": "MIT",
+      "category": "Translation & Dictionaries",
+      "extensions": [
+        {
+          "path": "source/Rhymes.popclipext"
+        }
+      ],
+      "mirrorIcons": true
+    },
+    {
+      "repo": "idklaws/clarirec-popclip",
+      "commit": "17c5c471011ed1c75b05009468d2e3cc9aac5140",
+      "author": "idklaws",
+      "license": "MIT",
+      "category": "Translation & Dictionaries",
+      "extensions": [
+        {
+          "path": "source/ClariRec.popclipext"
+        }
+      ],
+      "mirrorIcons": true
+    },
+    {
+      "repo": "ripperhe/bob-popclip",
+      "commit": "179d7218a4df08a3f72617b932cefb17ec2732f6",
+      "author": "ripperhe",
+      "license": "GPL-3.0",
+      "category": "Translation & Dictionaries",
+      "extensions": [
+        {
+          "path": "source",
+          "featured": true
+        }
+      ]
+    },
+    {
+      "repo": "idealistspace/doublememory-popclip",
+      "commit": "6e48b25375db61abdac9973559737bc7f346b017",
+      "author": "idealistspace",
+      "license": "MIT",
+      "category": "Notes & Writing",
+      "extensions": [
+        {
+          "path": "DoubleMemory.popclipext"
+        }
+      ],
+      "mirrorIcons": true
+    },
+    {
+      "repo": "leeronzhang/jotaid-popclip",
+      "commit": "6b7c93857ad79ceb3464739df59ed8790f985635",
+      "author": "Leeron Zhang",
+      "license": "Apache-2.0",
+      "category": "Notes & Writing",
+      "extensions": [
+        {
+          "path": "Jotaid.popclipext"
+        }
+      ],
+      "mirrorIcons": true
+    },
+    {
+      "repo": "bobacks/popclip-convert-currency",
+      "commit": "166a354e7b18fbd6b4b06d258ca0aac70e8f66aa",
+      "author": "Boback Shahsafdari",
+      "license": "MIT",
+      "category": "Text Tools",
+      "extensions": [
+        {
+          "path": "Convert Currency.popclipext"
+        }
+      ],
+      "mirrorIcons": true
+    },
+    {
+      "repo": "loliboso/popclip-currency-converter",
+      "commit": "0bef48ea615d8723cb9bcd704f451d19c2ced80a",
+      "author": "Loso Kao",
+      "license": "MIT",
+      "category": "Text Tools",
+      "extensions": [
+        {
+          "path": "CurrencyConverter.popclipext"
+        }
+      ],
+      "mirrorIcons": true
+    },
+    {
+      "repo": "pilotmoon/test-pcx-repo",
+      "commit": "2c2becac0c5261129ca5c838b304fbf4bbf1f168",
+      "author": "Nick Moore",
+      "license": "No license specified",
+      "category": "Text Tools",
+      "extensions": [
+        {
+          "path": "source/StraightenQuotes.popclipext"
+        }
+      ]
+    },
+    {
+      "repo": "pilotmoon/popclipweb",
+      "commit": "1ce4c088b7406f29fd1a2dde43fd3430af738f00",
+      "author": "Nick Moore",
+      "license": "CC-BY-SA-4.0",
+      "category": "Links & Read Later",
+      "extensions": [
+        {
+          "path": "extras/OpenInBrowser.popclipext",
+          "featured": true
+        }
+      ]
+    },
+    {
+      "repo": "iamvicliu/PopClip-Extensions",
+      "commit": "1a8c229b47f5b233c640b498ebbe5274ed247207",
+      "author": "Vic Liu",
+      "license": "No license specified",
+      "category": "Search",
+      "extensions": [
+        {
+          "path": "IPLookup.popclipext"
+        }
+      ]
+    },
+    {
+      "gist": "pilotmoon/0ac9cf50e8684711ee19e21ad61c0a61",
+      "commit": "9649461155a922edf15aed527dcf1cc57a46e41a",
+      "author": "Nick Moore",
+      "license": "No license specified",
+      "category": "Search"
+    },
+    {
+      "gist": "pilotmoon/a2db1766eba2e461cba01df6123a0c08",
+      "commit": "4d4141aec714e095d2e5dd0682dbaf027916f60e",
+      "author": "Nick Moore",
+      "license": "No license specified",
+      "category": "Search"
+    },
+    {
+      "gist": "pilotmoon/d98fe30b5906dfa1e39cedd6dc6bc25d",
+      "commit": "154ffec9f0f004ad40f8fe9a81c9e76df4c03b8e",
+      "author": "Nick Moore",
+      "license": "No license specified",
+      "category": "Search"
+    },
+    {
+      "gist": "pilotmoon/46f1ec946c666c1da3b40169a75fb32e",
+      "commit": "1c2f016a34271f71b583d3d9bb8c13a309c7fa28",
+      "author": "Nick Moore",
+      "license": "No license specified",
+      "category": "Search"
+    },
+    {
+      "gist": "pilotmoon/bd2e75750f4cfbedf832192eeb762c7f",
+      "commit": "e92c9e7d1bd73ccb633a53b1be51b928648a0b16",
+      "author": "Nick Moore",
+      "license": "No license specified",
+      "category": "Apps & Files"
+    },
+    {
+      "gist": "pilotmoon/d1134cbdfcf90370a9e6ff507da59f8f",
+      "commit": "31556d8a00add7e0be28a302e3967b93c1f4dbfa",
+      "author": "Nick Moore",
+      "license": "No license specified",
+      "category": "Search"
+    }
+  ]
+}

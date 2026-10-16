@@ -1,0 +1,16 @@
+<svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- The Jotaid mark, from Jotaid/Assets.xcassets/AppLogo.imageset/logo.svg.
+       Two differences, both required by PopClip:
+       - solid black instead of the gold gradient — PopClip renders extension
+         icons monochrome and inverts them for dark menus, so a gradient would
+         either be flattened or fight the bar's own colouring;
+       - a 10-unit margin around the 120x120 mark, because the shape runs edge
+         to edge and would otherwise sit noticeably heavier in the bar than the
+         icons next to it.
+       The margin is a translate inside a 0-origin viewBox rather than a
+       negative viewBox origin: some SVG rasterisers (Quick Look among them)
+       place a negative-origin viewBox wrong, and an icon is not worth the bet. -->
+  <g transform="translate(10 10)">
+    <path d="M120 120H0V52.459L0.000976562 52.46V37H37V83H83V37H37.1348L0.133789 0H120V120Z" fill="black"/>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T04:45:15.565Z",
+  "updatedAt": "2026-10-16T00:20:54.578Z",
   "entries": [
     {
       "id": "2do",
@@ -1126,12 +1126,12 @@
       "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/BingTranslator.popclipext"
     },
     {
-      "id": "bubble-translate",
-      "name": "Bubble Translate",
-      "identifier": "ru.bubble-translate.pop-clip.translate",
-      "description": "Translate the text using Bubble Translate.",
-      "icon": "https://app.enconvo.com/popbar-extensions/icons/bubble-translate.template.png",
-      "category": "Translation & Dictionaries",
+      "id": "brackets",
+      "name": "Brackets",
+      "identifier": "com.pilotmoon.popclip.extension.brackets",
+      "description": "Put brackets around the selected text, choosing from (), [], {}, <> and //.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/brackets.template.svg",
+      "category": "Text Tools",
       "status": "listed",
       "author": "Nick Moore and contributors",
       "license": "MIT",
@@ -1139,48 +1139,43 @@
       "source": {
         "repo": "pilotmoon/PopClip-Extensions",
         "commit": "ceab6507aa0b362aa152a80ca97651dcb5949ab6",
-        "path": "source/BubbleTranslate3.popclipext"
+        "path": "source/Brackets.popclipext"
       },
-      "digest": "2e1c12a49dc398fd848ada99ae2919da34d71b535c1bd7db8af7b3df76939b20",
+      "digest": "28a759f6540afe415deab8c139dd7ecd933f061bb8791ed8a0f5b862b79b40d6",
       "files": [
         {
-          "path": "Config.plist",
-          "sha256": "9240063d960959de9c0d90728c014a7903ecc426df8d38f39b625be17b2f5b27",
-          "size": 1246
+          "path": "Config.ts",
+          "sha256": "e185516b558fdfaf572f275b067678652933f65be54fa4f414bd367ebfd752c3",
+          "size": 1316
         },
         {
-          "path": "Readme.md",
-          "sha256": "0f87b72215e63f09282ed2e7443caf5e070b76ac9835b0b8176cb2bf1589e08f",
-          "size": 558
-        },
-        {
-          "path": "bubble-translate-icon.png",
-          "sha256": "d9b39ea4c3092d15e25a8559e8e1cdfaa7d30d7da12648df957dc271d1675ac5",
-          "size": 6512
+          "path": "readme.md",
+          "sha256": "b90f1d3bfd78f46e11026ef3b310dface6c4ae80e1a2bf39fe5702ef91bc24bc",
+          "size": 691
         }
       ],
       "capabilities": {
-        "scripts": [],
+        "scripts": [
+          "javascript"
+        ],
         "interpreters": [],
         "network": false,
         "apps": [],
         "keyPresses": false,
-        "services": [
-          "Translate with Bubble Translate 3"
-        ],
+        "services": [],
         "shortcuts": [],
         "urlHosts": [],
         "secrets": false,
-        "dynamic": false,
+        "dynamic": true,
         "auth": false
       },
       "actions": [
         {
-          "title": "Bubble Translate",
-          "type": "service"
+          "title": "Brackets",
+          "type": "dynamic"
         }
       ],
-      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/BubbleTranslate3.popclipext"
+      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/Brackets.popclipext"
     },
     {
       "id": "buffer",
@@ -1233,6 +1228,57 @@
         }
       ],
       "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/Buffer.popclipext"
+    },
+    {
+      "id": "bundle-id",
+      "name": "Bundle ID",
+      "identifier": "com.pilotmoon.popclip.extension.bundleid",
+      "description": "Show the bundle identifier of the app.",
+      "category": "Apps & Files",
+      "status": "listed",
+      "author": "Nick Moore and contributors",
+      "license": "MIT",
+      "version": "ceab650",
+      "source": {
+        "repo": "pilotmoon/PopClip-Extensions",
+        "commit": "ceab6507aa0b362aa152a80ca97651dcb5949ab6",
+        "path": "source/BundleID.popclipext"
+      },
+      "digest": "c8fd58b0ef2a055dd50f121dcfbc13d8e2b60684932c38d2b649fbac4e61f5eb",
+      "files": [
+        {
+          "path": "Config.js",
+          "sha256": "802574d08c9d31abc0e94b1cd7e363355e6125ec35304b0145bb3a89af20c714",
+          "size": 441
+        },
+        {
+          "path": "Readme.md",
+          "sha256": "65751c1814627360dac65cffb5e63382cfa2181700dc65954ec59ffd2aa7a0f7",
+          "size": 568
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": true,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Bundle ID",
+          "type": "dynamic"
+        }
+      ],
+      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/BundleID.popclipext"
     },
     {
       "id": "busycal",
@@ -1346,6 +1392,78 @@
         }
       ],
       "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/BusyContacts.popclipext"
+    },
+    {
+      "id": "calculate",
+      "name": "Calculate",
+      "identifier": "com.pilotmoon.popclip.extension.calculate",
+      "description": "Evaluate the text as a mathematical expression.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/calculate.template.png",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Nick Moore and contributors",
+      "license": "MIT",
+      "version": "ceab650",
+      "source": {
+        "repo": "pilotmoon/PopClip-Extensions",
+        "commit": "ceab6507aa0b362aa152a80ca97651dcb5949ab6",
+        "path": "source/Calculate.popclipext"
+      },
+      "digest": "ea747afd63c0b0617f8cf00e4155191230135cdb3fe895ca38fabeb7b80bc1a4",
+      "files": [
+        {
+          "path": "Calculate-demo.mp4",
+          "sha256": "a3cb2740c7d0ccf778e34805c6b14594e9af6d687deff594ff3faf063c70046b",
+          "size": 458881
+        },
+        {
+          "path": "Config.json",
+          "sha256": "53da3716725e905776f82afb4e658330e31f659318bd623a190234bc17e383fe",
+          "size": 290
+        },
+        {
+          "path": "Readme.md",
+          "sha256": "a793c95480be09c723f3ac2c5049ee789469246c44432a6af6375f967fcb76c3",
+          "size": 1478
+        },
+        {
+          "path": "calc.png",
+          "sha256": "2090fc8b309871798d52c5f9dd95086ef576fdcf14f4def16074ae303584084e",
+          "size": 7190
+        },
+        {
+          "path": "calculate.ts",
+          "sha256": "9068b174dc2d040d49c526fe5a4a6a7bf8a6b8898a76b513deadfe0ae36b817e",
+          "size": 1243
+        },
+        {
+          "path": "mathjs.js.lzfse",
+          "sha256": "d553b57b9dcf9debd5d17cb1094e80cac89dfd4df9e724586ec13052531053f0",
+          "size": 261278
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": true,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Calculate",
+          "type": "dynamic"
+        }
+      ],
+      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/Calculate.popclipext"
     },
     {
       "id": "call",
@@ -1581,12 +1699,11 @@
       "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/Cardhop.popclipext"
     },
     {
-      "id": "chatgpt-app",
-      "name": "ChatGPT App",
-      "identifier": "com.pilotmoon.popclip.extension.chatgpt-app",
-      "description": "Send the text to the ChatGPT App.",
-      "icon": "https://app.enconvo.com/popbar-extensions/icons/chatgpt-app.template.svg",
-      "category": "AI",
+      "id": "character-count",
+      "name": "Character Count",
+      "identifier": "com.pilotmoon.popclip.extension.charcount",
+      "description": "Display the number of characters in the selected text.",
+      "category": "Text Tools",
       "status": "listed",
       "author": "Nick Moore and contributors",
       "license": "MIT",
@@ -1594,34 +1711,22 @@
       "source": {
         "repo": "pilotmoon/PopClip-Extensions",
         "commit": "ceab6507aa0b362aa152a80ca97651dcb5949ab6",
-        "path": "source/ChatGPTApp.popclipext"
+        "path": "source/CharCount.popclipext"
       },
-      "digest": "3e08f23833859a41abaf1e946ecc2e61127092d4adaa5ed19be6473c941f8999",
+      "digest": "86d0b0f188342df0dcdbf9cdc303cb6ef84fec0be599e6f79b5be6e65556c06e",
       "files": [
         {
-          "path": "Config.ts",
-          "sha256": "57ddd2f4056b196ae683553a97365b9fb16ff669d3b56ea76a3ad7a04ed47fcd",
-          "size": 1312
-        },
-        {
-          "path": "Readme.md",
-          "sha256": "54b907d604d4ba78a6a8ef906c777cdd93d44aac25a8a79e2fa6753b7c117d39",
-          "size": 531
-        },
-        {
-          "path": "demo.mp4",
-          "sha256": "5361d4eb40a4d810eb238918523f967b5d4a77d1c62b30653040d28d75463035",
-          "size": 320442
+          "path": "Config.plist",
+          "sha256": "0414042dd40a49cbaf189417e6a6edddef7fdc756e155a0235b14ffef2c6573a",
+          "size": 780
         }
       ],
       "capabilities": {
-        "scripts": [
-          "javascript"
-        ],
+        "scripts": [],
         "interpreters": [],
         "network": false,
         "apps": [],
-        "keyPresses": true,
+        "keyPresses": false,
         "services": [],
         "shortcuts": [],
         "urlHosts": [],
@@ -1631,11 +1736,11 @@
       },
       "actions": [
         {
-          "title": "ChatGPT App",
-          "type": "js"
+          "title": "Character Count",
+          "type": "info"
         }
       ],
-      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/ChatGPTApp.popclipext"
+      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/CharCount.popclipext"
     },
     {
       "id": "chatgpt-website",
@@ -1920,6 +2025,155 @@
       "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/CodeCase.popclipext"
     },
     {
+      "id": "comma-list",
+      "name": "Comma List",
+      "identifier": "com.pilotmoon.popclip.extension.comma-list",
+      "description": "Split a comma-separated list into separate lines, and vice versa.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/comma-list.template.svg",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Nick Moore and contributors",
+      "license": "MIT",
+      "version": "ceab650",
+      "source": {
+        "repo": "pilotmoon/PopClip-Extensions",
+        "commit": "ceab6507aa0b362aa152a80ca97651dcb5949ab6",
+        "path": "source/CommaList.popclipext"
+      },
+      "digest": "0b717f4ecda1f8064509812f71c29cb29550c88eb67e2b6059fcadbfb536871e",
+      "files": [
+        {
+          "path": "CommaList-demo.gif",
+          "sha256": "054295b33446468c4962559f7f737e854411722aec690add9e94bf52679dc899",
+          "size": 895856
+        },
+        {
+          "path": "CommaList.svg",
+          "sha256": "5d831fbf0a46cc27e1df706cdaef1b31ec87919eca98207d473b8e2275a6b4eb",
+          "size": 3920
+        },
+        {
+          "path": "Config.json",
+          "sha256": "beaef0741361d7f717994dd62174e0acfcbfbe5463094e8eed781202f3385e63",
+          "size": 316
+        },
+        {
+          "path": "Readme.md",
+          "sha256": "b42d4bdf314b1f2927491c0c2ff69223a31a5cdf00335e939fb60cbc83b4d4cd",
+          "size": 829
+        },
+        {
+          "path": "comma-list.js",
+          "sha256": "e6d6d9dd28b3f67adf11871c9c4adb27c492ddc507f2d4deafa65f8f86217559",
+          "size": 1011
+        },
+        {
+          "path": "comma-list.ts",
+          "sha256": "4447185d39e013fa9ddaefbb85dd28862b4c360b5afa0c95b06d7079d88311b9",
+          "size": 805
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": true,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Comma List",
+          "type": "dynamic"
+        }
+      ],
+      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/CommaList.popclipext"
+    },
+    {
+      "id": "convert",
+      "name": "Convert",
+      "identifier": "com.pilotmoon.popclip.extension.convert",
+      "description": "Convert quantities in metric units to US/imperial units, and vice-versa. Supports lb↔kg, oz↔g, miles↔km, feet/yards↔m, inches↔mm/cm, °F↔°C.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/convert.template.png",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Nick Moore and contributors",
+      "license": "MIT",
+      "version": "ceab650",
+      "source": {
+        "repo": "pilotmoon/PopClip-Extensions",
+        "commit": "ceab6507aa0b362aa152a80ca97651dcb5949ab6",
+        "path": "source/Convert.popclipext"
+      },
+      "digest": "3c7eafc572d8f1380e23c668a2033c20f135fc4d403299ed1d98e83659958774",
+      "files": [
+        {
+          "path": "Config.json",
+          "sha256": "7be9c34ee91396471b01db33c4bf20b549cc61993295476767af4bf313dd0c3c",
+          "size": 364
+        },
+        {
+          "path": "Convert-demo.mp4",
+          "sha256": "91ab737bd435a88cea02ed5a29a5e682646314211ed80931f10359f2b0e54ebf",
+          "size": 264948
+        },
+        {
+          "path": "Readme.md",
+          "sha256": "5f373d049611f901e3db31e8e3c57a577e3e38b43af31c63bae7ebfdea771abd",
+          "size": 1876
+        },
+        {
+          "path": "convert.ts",
+          "sha256": "de4d6840a8258b87f421abce2b16b1b2c955bc69641551ae95dc7c2804360231",
+          "size": 4044
+        },
+        {
+          "path": "scales.png",
+          "sha256": "294ad06a8dd5739e3fcb9bbe3f8c779a1e3c23a70aa3474c2cdbeb66e6d43b42",
+          "size": 14603
+        },
+        {
+          "path": "test.ts",
+          "sha256": "93d5018d0e3ebee3e5400fbb23c9696083535019f0719241b3e8ced4b166a29d",
+          "size": 2023
+        },
+        {
+          "path": "testData.json",
+          "sha256": "9173741fb7d607ab8264ae046625212ce41585401c82f19974aa30ebfa31ebe4",
+          "size": 1430
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": true,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Convert",
+          "type": "dynamic"
+        }
+      ],
+      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/Convert.popclipext"
+    },
+    {
       "id": "copy-as-markdown",
       "name": "Copy as Markdown",
       "identifier": "com.pilotmoon.popclip.extension.copy-as-markdown",
@@ -1980,6 +2234,58 @@
         }
       ],
       "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/CopyAsMarkdown.popclipext"
+    },
+    {
+      "id": "copy-link-to-highlight",
+      "name": "Copy Link to Highlight",
+      "identifier": "com.pilotmoon.popclip.extension.copy-link-to-Highlight",
+      "description": "Copies a URL that points to the text currently selected in a web page",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/copy-link-to-highlight.template.svg",
+      "category": "Links & Read Later",
+      "status": "listed",
+      "author": "Nick Moore and contributors",
+      "license": "MIT",
+      "version": "ceab650",
+      "source": {
+        "repo": "pilotmoon/PopClip-Extensions",
+        "commit": "ceab6507aa0b362aa152a80ca97651dcb5949ab6",
+        "path": "source/CopyLinkToHighlight.popclipext"
+      },
+      "digest": "e4afbada07734197232673eeecd744a5c6ab0d4a38497a203c3494f939f183f6",
+      "files": [
+        {
+          "path": "Config.ts",
+          "sha256": "d48ff75c8a9e616304b9645c6f0da2807b8d2d2fb33e22e1b32c128592953650",
+          "size": 867
+        },
+        {
+          "path": "Readme.md",
+          "sha256": "a7e9703455743275c2ac44d31bfb65def60ad7fb79dc41b4e2c7dbe1bb2b1345",
+          "size": 530
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": true,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Copy Link to Highlight",
+          "type": "dynamic"
+        }
+      ],
+      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/CopyLinkToHighlight.popclipext"
     },
     {
       "id": "craft",
@@ -2543,63 +2849,6 @@
         }
       ],
       "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/Delete.popclipext"
-    },
-    {
-      "id": "deliveries",
-      "name": "Deliveries",
-      "identifier": "com.pilotmoon.popclip.extension.deliveries",
-      "description": "Track a package delivery using Deliveries.",
-      "icon": "https://app.enconvo.com/popbar-extensions/icons/deliveries.template.png",
-      "category": "Apps & Files",
-      "status": "listed",
-      "author": "Nick Moore and contributors",
-      "license": "MIT",
-      "version": "ceab650",
-      "source": {
-        "repo": "pilotmoon/PopClip-Extensions",
-        "commit": "ceab6507aa0b362aa152a80ca97651dcb5949ab6",
-        "path": "source/Deliveries.popclipext"
-      },
-      "digest": "b6cc986dad89d4cbf53b6317f6dcaea2dc97405c82562690578acd30bede40f8",
-      "files": [
-        {
-          "path": "Config.plist",
-          "sha256": "0bf8031e953f41561284d68bec21ed9328675276e32694bc4a12d6ec8ed4d1e0",
-          "size": 1239
-        },
-        {
-          "path": "Deliveries-demo.gif",
-          "sha256": "090fae93f2b27b96e36512b5b15841c87a5c0e94ef62f34b534b4444ab325eb0",
-          "size": 364078
-        },
-        {
-          "path": "deliveries.png",
-          "sha256": "7e651cf1a738891652bc2f2a7039e9f3975cd9cb15b58ce0bb61e68eef0ea59d",
-          "size": 5284
-        }
-      ],
-      "capabilities": {
-        "scripts": [],
-        "interpreters": [],
-        "network": false,
-        "apps": [],
-        "keyPresses": false,
-        "services": [
-          "Add to Deliveries"
-        ],
-        "shortcuts": [],
-        "urlHosts": [],
-        "secrets": false,
-        "dynamic": false,
-        "auth": false
-      },
-      "actions": [
-        {
-          "title": "Deliveries",
-          "type": "service"
-        }
-      ],
-      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/Deliveries.popclipext"
     },
     {
       "id": "discogs",
@@ -3383,6 +3632,78 @@
         }
       ],
       "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/Ecosia.popclipext"
+    },
+    {
+      "id": "email",
+      "name": "Email",
+      "identifier": "com.pilotmoon.popclip.extension.generic-mail",
+      "description": "Create a new mail message with the selected \"to:\" address, or with the selected text, in the default mail client.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/email.template.png",
+      "category": "Search",
+      "status": "listed",
+      "author": "Nick Moore and contributors",
+      "license": "MIT",
+      "version": "ceab650",
+      "source": {
+        "repo": "pilotmoon/PopClip-Extensions",
+        "commit": "ceab6507aa0b362aa152a80ca97651dcb5949ab6",
+        "path": "source/Email.popclipext"
+      },
+      "digest": "8fc9a02d722d187b331b4e5930abb246275542f521f3e29d82ccaaa1014094e9",
+      "files": [
+        {
+          "path": "Config.json",
+          "sha256": "14b1661a71f53e6a336abb95dcbf83aa084c2c48a99f44c1940e7a5d568d7331",
+          "size": 1128
+        },
+        {
+          "path": "README.md",
+          "sha256": "47f75342c314c669d23642846aa505fefa66c83c8ddf1bff1b01ec8729302aa6",
+          "size": 127
+        },
+        {
+          "path": "at.png",
+          "sha256": "17b0059e0efef7eea08a5f2fb95d1c1bf3cd47bd419e531575c24579f80b1201",
+          "size": 10176
+        },
+        {
+          "path": "email.js",
+          "sha256": "58d2e18049910f2114fadcd637750e2d39e55d813856287d8f9fd3ac9909e0da",
+          "size": 1410
+        },
+        {
+          "path": "email.ts",
+          "sha256": "30f941f15bd59a694b79e60966d9b2895173f79ba39b603472747b83c3be4794",
+          "size": 1145
+        },
+        {
+          "path": "envelope.png",
+          "sha256": "aa16d88f2903b4170598e606d825c7ea5933f26e77cd550e94970f2902faeb0c",
+          "size": 8171
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": true,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Email",
+          "type": "dynamic"
+        }
+      ],
+      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/Email.popclipext"
     },
     {
       "id": "etsy",
@@ -4896,6 +5217,83 @@
       "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/HoudahSpot.popclipext"
     },
     {
+      "id": "hyphenate",
+      "name": "Hyphenate",
+      "identifier": "com.pilotmoon.popclip.extension.hyphenate",
+      "description": "Replace spaces between words with hyphens, and vice versa.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/hyphenate.template.png",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Nick Moore and contributors",
+      "license": "MIT",
+      "version": "ceab650",
+      "source": {
+        "repo": "pilotmoon/PopClip-Extensions",
+        "commit": "ceab6507aa0b362aa152a80ca97651dcb5949ab6",
+        "path": "source/Hyphenate.popclipext"
+      },
+      "digest": "d7a3f3278fe6d212fd162305b1ce06232513d9885c7c954b405f8a0c32cd9d68",
+      "files": [
+        {
+          "path": "Config.json",
+          "sha256": "c757d9564d9144b71c119dcb6bc8600a30186fe53cabafe55a8c9504f9aa1051",
+          "size": 289
+        },
+        {
+          "path": "Hyphenate-demo.gif",
+          "sha256": "e43f500871ab5a20a45c57b231bb8c544c095eb1cdd53c6e07f2e41bf4fe74fc",
+          "size": 71600
+        },
+        {
+          "path": "build",
+          "sha256": "f957485a6dd522fb8ad6eb422623c8e88e618e7631e0af2199c142e088ac3523",
+          "size": 142
+        },
+        {
+          "path": "hyphen.png",
+          "sha256": "172cc4483d5627f7e4bf142a3c8090b9944e64309d28656eba5fb3ad92b900d5",
+          "size": 4961
+        },
+        {
+          "path": "hyphenate.bundle.js",
+          "sha256": "8aa693bf4413cdfead73d668e24c509933378d2816ce7c3c33d383c8f30cf7fe",
+          "size": 3778
+        },
+        {
+          "path": "hyphenate.js",
+          "sha256": "60ccbe0d58bd32113c6682c3579bbd1ffd7e6decc6f84a02062454601a5c09a0",
+          "size": 554
+        },
+        {
+          "path": "hyphenate.ts",
+          "sha256": "5fcc7a8ed0ff6a3bdbf8bfbd7f443cb5080f50f7ead98250224d67693bd422a6",
+          "size": 372
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": true,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Hyphenate",
+          "type": "dynamic"
+        }
+      ],
+      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/Hyphenate.popclipext"
+    },
+    {
       "id": "iina",
       "name": "IINA",
       "identifier": "com.pilotmoon.popclip.extension.iina",
@@ -5399,73 +5797,6 @@
       "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/LargeType.popclipext"
     },
     {
-      "id": "latex-to-mathml",
-      "name": "Latex to MathML",
-      "identifier": "com.pilotmoon.popclip.extension.latextomathml",
-      "description": "Convert LaTeX to MathML.",
-      "icon": "https://app.enconvo.com/popbar-extensions/icons/latex-to-mathml.template.svg",
-      "category": "Text Tools",
-      "status": "listed",
-      "author": "Nick Moore and contributors",
-      "license": "MIT",
-      "version": "ceab650",
-      "source": {
-        "repo": "pilotmoon/PopClip-Extensions",
-        "commit": "ceab6507aa0b362aa152a80ca97651dcb5949ab6",
-        "path": "source/LatexToMathML.popclipext"
-      },
-      "digest": "9a351bd2b7c9c6d3eea880a0f75b018e34999d67776f3c1b4fc76f43ad173375",
-      "files": [
-        {
-          "path": "Config.yaml",
-          "sha256": "79b08e4e28fb099a9dd007cf1f6c2eb5ea2cc80df772a9b1f082dbe14ac72a73",
-          "size": 199
-        },
-        {
-          "path": "Readme.md",
-          "sha256": "c4037f62c5fb9b64262f2755e56cdb60b16880a3b38cb450b156c7aa2194a68b",
-          "size": 179
-        },
-        {
-          "path": "_build",
-          "sha256": "1350b66eeae8e6cf7938224905ab816c86bdc58720a7b4d979f3420a781c19df",
-          "size": 119
-        },
-        {
-          "path": "_module.ts",
-          "sha256": "c698c21f1714421c151d7b6d8dfd921f732b17dc46b4d9b06530ab16826394e4",
-          "size": 287
-        },
-        {
-          "path": "module.bundle.js",
-          "sha256": "faa35165ced24d10d467b2980c2e1c9a05be3b7ab0b9306bf8c8ddbd7679051c",
-          "size": 52562
-        }
-      ],
-      "capabilities": {
-        "scripts": [
-          "javascript"
-        ],
-        "interpreters": [],
-        "network": false,
-        "apps": [],
-        "keyPresses": false,
-        "services": [],
-        "shortcuts": [],
-        "urlHosts": [],
-        "secrets": false,
-        "dynamic": false,
-        "auth": false
-      },
-      "actions": [
-        {
-          "title": "Latex to MathML",
-          "type": "js"
-        }
-      ],
-      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/LatexToMathML.popclipext"
-    },
-    {
       "id": "launchbar",
       "name": "LaunchBar",
       "identifier": "com.pilotmoon.popclip.extension.launchbar",
@@ -5697,6 +6028,67 @@
         }
       ],
       "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/Lexibird.popclipext"
+    },
+    {
+      "id": "line-count",
+      "name": "Line Count",
+      "identifier": "com.pilotmoon.popclip.extension.linecount",
+      "description": "Display the number of lines in the selected text.",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Nick Moore and contributors",
+      "license": "MIT",
+      "version": "ceab650",
+      "source": {
+        "repo": "pilotmoon/PopClip-Extensions",
+        "commit": "ceab6507aa0b362aa152a80ca97651dcb5949ab6",
+        "path": "source/LineCount.popclipext"
+      },
+      "digest": "73d520952ab3b4c361709227a8fdba2d76fc253bbcf770d119dee3c1926ae5e9",
+      "files": [
+        {
+          "path": "Config.json",
+          "sha256": "f7c5d05e68d97c24bfa6d35af2c9e0a6f06bc18c3f24bf7e8b2b50219283ce95",
+          "size": 269
+        },
+        {
+          "path": "Readme.md",
+          "sha256": "3bea6eea1facfea9d0ede389c684ae3e41808b87e9c36a54166931f2ba6dffd7",
+          "size": 423
+        },
+        {
+          "path": "linecount.js",
+          "sha256": "910c8dd8bddff4248d6bb0b1d7ead3397a9d50a6e274cfe5e7c9c4bded014e81",
+          "size": 385
+        },
+        {
+          "path": "linecount.ts",
+          "sha256": "ab80a204104a11a8f7b26294ebcccbe1c03cad9634c4dfa6ded74b61d0d80a7e",
+          "size": 274
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": true,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Line Count",
+          "type": "dynamic"
+        }
+      ],
+      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/LineCount.popclipext"
     },
     {
       "id": "linkedin",
@@ -8003,6 +8395,68 @@
       "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/Quiver.popclipext"
     },
     {
+      "id": "quotes",
+      "name": "Quotes",
+      "identifier": "com.pilotmoon.popclip.extension.quotes",
+      "description": "Put quotation marks around the selected text, choosing from several styles.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/quotes.template.png",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Nick Moore and contributors",
+      "license": "MIT",
+      "version": "ceab650",
+      "source": {
+        "repo": "pilotmoon/PopClip-Extensions",
+        "commit": "ceab6507aa0b362aa152a80ca97651dcb5949ab6",
+        "path": "source/Quotes.popclipext"
+      },
+      "digest": "689ab16f8c126de4fb705366d0210f284a1505a0cabd51d07b8388e9e6c3f793",
+      "files": [
+        {
+          "path": "Config.json",
+          "sha256": "5dcf95fba7b8838790aa8c6f1e8f055566279d85725a39b4acf7b2398d624e0f",
+          "size": 289
+        },
+        {
+          "path": "Quotes-demo.gif",
+          "sha256": "4099358b7ba9bb5f214ab7306f4952527cedf3b837912c523a61c078e35223ec",
+          "size": 244716
+        },
+        {
+          "path": "quotes.png",
+          "sha256": "8b1c04a1b8257fb1c955a3ffc8da561663193c606d19200c60d1315945509fd2",
+          "size": 13320
+        },
+        {
+          "path": "quotes.ts",
+          "sha256": "227339e0a6ab09d31528b702d789bd9c07e5ec92912115eff63db095dd1f3407",
+          "size": 1133
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": true,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Quotes",
+          "type": "dynamic"
+        }
+      ],
+      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/Quotes.popclipext"
+    },
+    {
       "id": "qwant",
       "name": "Qwant",
       "identifier": "com.pilotmoon.popclip.extension.qwant",
@@ -8939,88 +9393,6 @@
         }
       ],
       "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/SentenceCase.popclipext"
-    },
-    {
-      "id": "short-menu",
-      "name": "Short Menu",
-      "identifier": "com.pilotmoon.popclip.extension.short-menu",
-      "description": "Shorten URLs with Short Menu.",
-      "icon": "https://app.enconvo.com/popbar-extensions/icons/short-menu.template.png",
-      "category": "Links & Read Later",
-      "status": "listed",
-      "author": "Nick Moore and contributors",
-      "license": "MIT",
-      "version": "ceab650",
-      "source": {
-        "repo": "pilotmoon/PopClip-Extensions",
-        "commit": "ceab6507aa0b362aa152a80ca97651dcb5949ab6",
-        "path": "source/ShortMenu.popclipext"
-      },
-      "digest": "41bcb7e6fe01618e32d368ffa085fffca2cae0689cd4d0baa97d013476a3d16b",
-      "files": [
-        {
-          "path": "Config.json",
-          "sha256": "50f4eb3591d3771c06871550b13fd532d71c55533d7e6ee0d735d93eae6e48f5",
-          "size": 389
-        },
-        {
-          "path": "Demo.mp4",
-          "sha256": "282b6a9da19d4aa08c5e689d93478be9eb9c5a065a78dd0a191b824267274af4",
-          "size": 274260
-        },
-        {
-          "path": "Readme.md",
-          "sha256": "f7501901cb73fb40e63cfcb4ed8df4c69b933c040d1096ec30be0b090e45d129",
-          "size": 1149
-        },
-        {
-          "path": "_build",
-          "sha256": "4cdf542f1f76c7176b4b2d18b4bf2ef1be7757675a9b4586c1f19b0fb859a274",
-          "size": 120
-        },
-        {
-          "path": "_module.ts",
-          "sha256": "66f25bd3163f03ef511c2a47f39f3c42ee5c600c81089c020e7b182533e7a033",
-          "size": 993
-        },
-        {
-          "path": "_shortmenu.ts",
-          "sha256": "586145eba3d9708760642bae307f8b13a5da9f8a514aafd399886f36d1aa61e3",
-          "size": 525
-        },
-        {
-          "path": "module.bundle.js",
-          "sha256": "98b73523250ce0a746cf77ffadfe0172a6b3dece6ecca5d773509b8692309db2",
-          "size": 75825
-        },
-        {
-          "path": "shortmenu.png",
-          "sha256": "308febc787380604071ce200b187f03d8d0ee7f74ff3140d7e3984191387e931",
-          "size": 9168
-        }
-      ],
-      "capabilities": {
-        "scripts": [
-          "javascript"
-        ],
-        "interpreters": [],
-        "network": true,
-        "apps": [],
-        "keyPresses": false,
-        "services": [],
-        "shortcuts": [],
-        "urlHosts": [],
-        "secrets": true,
-        "dynamic": false,
-        "auth": false
-      },
-      "actions": [
-        {
-          "title": "Short Menu",
-          "type": "js"
-        }
-      ],
-      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/ShortMenu.popclipext"
     },
     {
       "id": "shorten-link",
@@ -10005,70 +10377,6 @@
       "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/TextSoap.popclipext"
     },
     {
-      "id": "the-hit-list",
-      "name": "The Hit List",
-      "identifier": "com.potionfactory.popclip-extension.TheHitList",
-      "description": "Create a new task in The Hit List.",
-      "icon": "https://app.enconvo.com/popbar-extensions/icons/the-hit-list.template.png",
-      "category": "Tasks & Calendar",
-      "status": "listed",
-      "author": "Nick Moore and contributors",
-      "license": "MIT",
-      "version": "ceab650",
-      "source": {
-        "repo": "pilotmoon/PopClip-Extensions",
-        "commit": "ceab6507aa0b362aa152a80ca97651dcb5949ab6",
-        "path": "source/TheHitList.popclipext"
-      },
-      "digest": "1e3bdcb2df4023e60a033f58ecac4f0250bcd2d9546a3d8cc3fb868461edacca",
-      "files": [
-        {
-          "path": "Config.plist",
-          "sha256": "6b2141132837eab14fb41b578c6701e7e70846e54fda4ff1e6355cb300548c12",
-          "size": 1056
-        },
-        {
-          "path": "TheHistListAddTask.applescript",
-          "sha256": "da8275d04df649e194eca2bdd82594531eca25d6853c32ae26481ad4072c0502",
-          "size": 374
-        },
-        {
-          "path": "TheHitList-demo.gif",
-          "sha256": "c71efc89e302bdb3905db844ed810ea3e6891e1bb8316a4711b15d59e19399c5",
-          "size": 53369
-        },
-        {
-          "path": "TheHitListIcon.png",
-          "sha256": "1d663c5d26d9382adc86aa7987bc8cef9505bb7ca46c4fce799880ab29e9d653",
-          "size": 2250
-        }
-      ],
-      "capabilities": {
-        "scripts": [
-          "applescript"
-        ],
-        "interpreters": [],
-        "network": false,
-        "apps": [
-          "The Hit List"
-        ],
-        "keyPresses": false,
-        "services": [],
-        "shortcuts": [],
-        "urlHosts": [],
-        "secrets": false,
-        "dynamic": false,
-        "auth": false
-      },
-      "actions": [
-        {
-          "title": "The Hit List",
-          "type": "applescript"
-        }
-      ],
-      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/TheHitList.popclipext"
-    },
-    {
       "id": "things-3",
       "name": "Things 3",
       "identifier": "com.pilotmoon.popclip.extension.things3",
@@ -10565,63 +10873,6 @@
       "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/TranslateTab.popclipext"
     },
     {
-      "id": "translatium",
-      "name": "Translatium",
-      "identifier": "com.pilotmoon.popclip.extension.translatium",
-      "description": "Translate the text using Translatium.",
-      "icon": "https://app.enconvo.com/popbar-extensions/icons/translatium.template.png",
-      "category": "Translation & Dictionaries",
-      "status": "listed",
-      "author": "Nick Moore and contributors",
-      "license": "MIT",
-      "version": "ceab650",
-      "source": {
-        "repo": "pilotmoon/PopClip-Extensions",
-        "commit": "ceab6507aa0b362aa152a80ca97651dcb5949ab6",
-        "path": "source/Translatium.popclipext"
-      },
-      "digest": "52e16072abfd9ab3fd5756a140a7e7555302cec9c80059118f6ace386f085108",
-      "files": [
-        {
-          "path": "Config.yaml",
-          "sha256": "528739db778ea53ac171a7ac3ace0722af55bef7503114434994cd3c04990e2b",
-          "size": 337
-        },
-        {
-          "path": "Readme.md",
-          "sha256": "0ef679f0fefa57719115d61e61f3bcbcbab0b1bb8a1a338c41f53a8d8a68af7e",
-          "size": 263
-        },
-        {
-          "path": "translatium.png",
-          "sha256": "ba97ec64c8669b5c416a6d0a540ff750d973989642d2d8be36be8881616a278b",
-          "size": 7499
-        }
-      ],
-      "capabilities": {
-        "scripts": [],
-        "interpreters": [],
-        "network": false,
-        "apps": [
-          "com.translatium.app"
-        ],
-        "keyPresses": false,
-        "services": [],
-        "shortcuts": [],
-        "urlHosts": [],
-        "secrets": false,
-        "dynamic": false,
-        "auth": false
-      },
-      "actions": [
-        {
-          "title": "Translatium",
-          "type": "url"
-        }
-      ],
-      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/Translatium.popclipext"
-    },
-    {
       "id": "twitter-search",
       "name": "Twitter Search",
       "identifier": "com.pilotmoon.popclip.extension.twitter-search",
@@ -10897,6 +11148,83 @@
       "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/Unclutter.popclipext"
     },
     {
+      "id": "underscore",
+      "name": "Underscore",
+      "identifier": "com.pilotmoon.popclip.extension.underscore",
+      "description": "Replace spaces between words with underscores, and vice versa.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/underscore.template.png",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Nick Moore and contributors",
+      "license": "MIT",
+      "version": "ceab650",
+      "source": {
+        "repo": "pilotmoon/PopClip-Extensions",
+        "commit": "ceab6507aa0b362aa152a80ca97651dcb5949ab6",
+        "path": "source/Underscore.popclipext"
+      },
+      "digest": "898dc9a50cce540c92350cb5a9700f1a97ac589035415917fb6f3774f18220ea",
+      "files": [
+        {
+          "path": "Config.json",
+          "sha256": "b8a82d786b3747740d9ea17e56937964ed33cfa7bdd8551a3e8f214e0a1369e2",
+          "size": 301
+        },
+        {
+          "path": "Underscore-demo.gif",
+          "sha256": "72b78e25458ef08f820cf4411a31af1d9c40f8aa5618596f51da8d228dbe9e07",
+          "size": 110787
+        },
+        {
+          "path": "build",
+          "sha256": "d767b16b5ca812867e5c4d9f6d9ede24c1cf66f63312b016139f20bb5f46d0fb",
+          "size": 144
+        },
+        {
+          "path": "underscore.bundle.js",
+          "sha256": "cb7b20bbef569a4985ec0915bd1b14698a27317565febda8abff42af528731c3",
+          "size": 3778
+        },
+        {
+          "path": "underscore.js",
+          "sha256": "648856d0688fdd88225e653981a6aa2e5ad44ae0f4dabe7fb85d640d84726d0b",
+          "size": 554
+        },
+        {
+          "path": "underscore.png",
+          "sha256": "92a158982163f075b67de51c59af3646d4fe612eff82211f7bfdcb72d9b78d1f",
+          "size": 5105
+        },
+        {
+          "path": "underscore.ts",
+          "sha256": "ebf274ff0b76fc36e1d1cbfd7d0803e1d5015d882aa166f321e401654ae8e380",
+          "size": 372
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": true,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Underscore",
+          "type": "dynamic"
+        }
+      ],
+      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/Underscore.popclipext"
+    },
+    {
       "id": "unicode-lens",
       "name": "Unicode Lens",
       "identifier": "com.pilotmoon.popclip.extension.unicode-lens",
@@ -10952,6 +11280,63 @@
         }
       ],
       "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/UnicodeLens.popclipext"
+    },
+    {
+      "id": "unix-time",
+      "name": "Unix Time",
+      "identifier": "com.pilotmoon.popclip.extension.unix-time",
+      "description": "Convert Unix timestamps to formatted dates and times.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/unix-time.template.png",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Nick Moore and contributors",
+      "license": "MIT",
+      "version": "ceab650",
+      "source": {
+        "repo": "pilotmoon/PopClip-Extensions",
+        "commit": "ceab6507aa0b362aa152a80ca97651dcb5949ab6",
+        "path": "source/UnixTime.popclipext"
+      },
+      "digest": "261b446187a890c0c07466676277389e5954f9bf076b87e83845361039a6f026",
+      "files": [
+        {
+          "path": "Config.ts",
+          "sha256": "63e11c1586429ba5a9344821c08079e8d8280c47560790183b10118f039d9872",
+          "size": 4171
+        },
+        {
+          "path": "README.md",
+          "sha256": "caf381366ac6e6731f544f1f539a6bdc49c41452facb8dcdbb3575dee0c946e1",
+          "size": 1301
+        },
+        {
+          "path": "UnixTime.png",
+          "sha256": "935b3ee711db0a9d611a523aa2d8528873af48a783692c88ad7f659f86e770a8",
+          "size": 3704
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": true,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Unix Time",
+          "type": "dynamic"
+        }
+      ],
+      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/UnixTime.popclipext"
     },
     {
       "id": "upnote",
@@ -11343,6 +11728,50 @@
         }
       ],
       "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/WolframAlpha.popclipext"
+    },
+    {
+      "id": "word-count",
+      "name": "Word Count",
+      "identifier": "com.pilotmoon.popclip.extension.wordcount",
+      "description": "Display the number of words in the selected text.",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Nick Moore and contributors",
+      "license": "MIT",
+      "version": "ceab650",
+      "source": {
+        "repo": "pilotmoon/PopClip-Extensions",
+        "commit": "ceab6507aa0b362aa152a80ca97651dcb5949ab6",
+        "path": "source/WordCount.popclipext"
+      },
+      "digest": "f476763edd111bf12acd276726b4e35bd57f396694b2be0f89e6620c8a6f8497",
+      "files": [
+        {
+          "path": "Config.plist",
+          "sha256": "b057f035e7cb3fe1f14b2e4f076156716e3da6ce6ff8b73cacaa8d55d2af3cf7",
+          "size": 751
+        }
+      ],
+      "capabilities": {
+        "scripts": [],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Word Count",
+          "type": "info"
+        }
+      ],
+      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/WordCount.popclipext"
     },
     {
       "id": "worldcat",
@@ -11748,32 +12177,771 @@
       "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/YouTube.popclipext"
     },
     {
-      "id": "nvalt",
-      "name": "nvALT",
-      "identifier": "com.pilotmoon.popclip.extension.nvalt",
-      "description": "Create a note in nvALT.",
-      "icon": "https://app.enconvo.com/popbar-extensions/icons/nvalt.template.png",
-      "category": "Notes & Writing",
+      "id": "twitterify",
+      "name": "Twitterify",
+      "identifier": "com.brettterpstra.popclip.extension.twitterify",
+      "description": "Converts @names and #hashtags to x.com urls.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/twitterify.template.png",
+      "category": "Text Tools",
       "status": "listed",
-      "author": "Nick Moore and contributors",
+      "author": "Brett Terpstra",
       "license": "MIT",
-      "version": "ceab650",
+      "version": "ae6b410",
       "source": {
-        "repo": "pilotmoon/PopClip-Extensions",
-        "commit": "ceab6507aa0b362aa152a80ca97651dcb5949ab6",
-        "path": "source/nvALT.popclipext"
+        "repo": "ttscoff/popclipextensions",
+        "commit": "ae6b41037f621845afb198275f16ac8ef935e9d5",
+        "path": "Twitterify.popclipext"
       },
-      "digest": "9deda7754f65e9911b8fdec039c4b10b993ae6ee1cb70b882846e1d36e1838fe",
+      "digest": "8bb15e8506379f4c9aebf4c98d297dea017e82d10ca1a40421fc9f628ab5fbb8",
       "files": [
         {
-          "path": "Config.json",
-          "sha256": "5ed433ab0c257319b21355d1f929dd9a9921ab89ac66927fbb735a8bdf3b2b0a",
-          "size": 514
+          "path": "Config.yaml",
+          "sha256": "18ca5343ef8cb89720f64b7239bba266d9627113d5b9f767aaae2d8febced980",
+          "size": 471
         },
         {
           "path": "README.md",
-          "sha256": "13a2d8f8424121c157dd7b3e96ee8bc2f67ec229f56e51172264ab57e7e674fc",
-          "size": 599
+          "sha256": "d479c645abebd474664d472f9025e8146b8e98aed9827ade9c1510e9faa8b110",
+          "size": 285
+        },
+        {
+          "path": "icon.png",
+          "sha256": "d1a674750f6693b192a399f8571048d5c04bb74f8ded534d5110d1897fdefb8f",
+          "size": 7537
+        },
+        {
+          "path": "script.ts",
+          "sha256": "e891ff5cfeb15fb263dee10e061bb24d44ad5d18553128b9efeb0ff55c0494fe",
+          "size": 1231
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Twitterify",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/ttscoff/popclipextensions/tree/ae6b41037f621845afb198275f16ac8ef935e9d5/Twitterify.popclipext"
+    },
+    {
+      "id": "outdent",
+      "name": "Outdent",
+      "identifier": "com.brettterpstra.popclip.extension.outdent",
+      "description": "Outdent the selection.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/outdent.template.png",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Brett Terpstra",
+      "license": "MIT",
+      "version": "ae6b410",
+      "source": {
+        "repo": "ttscoff/popclipextensions",
+        "commit": "ae6b41037f621845afb198275f16ac8ef935e9d5",
+        "path": "Outdent.popclipext"
+      },
+      "digest": "fa6ab886c389a589356ba752a4ccb319133a7443b1ac25f20774155d989be38f",
+      "files": [
+        {
+          "path": "Config.yaml",
+          "sha256": "eb3bbc4da5868b85a1d98a8bc1a5056f4606287943d89a79d93da7e4bff04f6a",
+          "size": 271
+        },
+        {
+          "path": "README.md",
+          "sha256": "ba9f7a451a0bbf47c6adbf012a07c698f9706369771a80d7fc213fd40d08db5b",
+          "size": 190
+        },
+        {
+          "path": "outdent.png",
+          "sha256": "0b29f607a6b78b31d2f67ad87d53524c31f1de7bd4cc4e4230612c9a97c7bdf6",
+          "size": 3140
+        },
+        {
+          "path": "outdent.ts",
+          "sha256": "183b331ba3b1db557f57b2c1c9f30081cce11df2d7614a2f593be57de911435e",
+          "size": 726
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "|<",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/ttscoff/popclipextensions/tree/ae6b41037f621845afb198275f16ac8ef935e9d5/Outdent.popclipext"
+    },
+    {
+      "id": "slugify-ttscoff",
+      "name": "Slugify",
+      "identifier": "com.brettterpstra.popclip.extension.slugify",
+      "description": "Turn selected text into a valid post slug.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/slugify-ttscoff.template.png",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Brett Terpstra",
+      "license": "MIT",
+      "version": "ae6b410",
+      "source": {
+        "repo": "ttscoff/popclipextensions",
+        "commit": "ae6b41037f621845afb198275f16ac8ef935e9d5",
+        "path": "Slugify.popclipext"
+      },
+      "digest": "c767091601b90dca45e5a0ae0b908062ce6af880b239fe66077cf83115260c88",
+      "files": [
+        {
+          "path": "Config.yaml",
+          "sha256": "44b269671d08bf53cce33450688553509eb95accd7f1532edb16bfcf5bed6c48",
+          "size": 287
+        },
+        {
+          "path": "README.md",
+          "sha256": "7b71885508194296d0200b7a84b7c122ff0618679c66f9086c6884176baf3b21",
+          "size": 313
+        },
+        {
+          "path": "hyphen.png",
+          "sha256": "172cc4483d5627f7e4bf142a3c8090b9944e64309d28656eba5fb3ad92b900d5",
+          "size": 4961
+        },
+        {
+          "path": "slugger.ts",
+          "sha256": "d84259830fe85d25ee03e88557c970133a00c2b2b6f9a8fcb2a0b213f0902093",
+          "size": 562
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "-",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/ttscoff/popclipextensions/tree/ae6b41037f621845afb198275f16ac8ef935e9d5/Slugify.popclipext"
+    },
+    {
+      "id": "poortext",
+      "name": "PoorText",
+      "identifier": "com.brettterpstra.popclip.extension.poortext",
+      "description": "Strip rich text formatting",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/poortext.template.png",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Brett Terpstra",
+      "license": "MIT",
+      "version": "ae6b410",
+      "source": {
+        "repo": "ttscoff/popclipextensions",
+        "commit": "ae6b41037f621845afb198275f16ac8ef935e9d5",
+        "path": "PoorText.popclipext"
+      },
+      "digest": "a8a996965e9143c7d761e1c85cd519fc30d9be1ac287f61a733600cc44865fc2",
+      "files": [
+        {
+          "path": "Config.yaml",
+          "sha256": "e19a9273e8ac5694768045fb62443a64b0459f91c1fbb1daa9bd7b7c67598c53",
+          "size": 286
+        },
+        {
+          "path": "README.md",
+          "sha256": "900434566b5f0ac5d23f5a9a5cb614d79479bcdf8445502c0d506b65b6113387",
+          "size": 173
+        },
+        {
+          "path": "icon.png",
+          "sha256": "d6dce8e18d16348ac8bc22b7b81fbdb3812cda04d66c075d75744b0a91f30c75",
+          "size": 3410
+        },
+        {
+          "path": "script.ts",
+          "sha256": "8d626f732aa4737d24801d5852886aa11f043a22a3cd92fc7aa11f2378aec1ab",
+          "size": 100
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "PoorText",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/ttscoff/popclipextensions/tree/ae6b41037f621845afb198275f16ac8ef935e9d5/PoorText.popclipext"
+    },
+    {
+      "id": "sum",
+      "name": "Sum",
+      "identifier": "com.brettterpstra.popclip.extension.sum",
+      "description": "Totals all numbers found in selection.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/sum.template.png",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Brett Terpstra",
+      "license": "MIT",
+      "version": "ae6b410",
+      "source": {
+        "repo": "ttscoff/popclipextensions",
+        "commit": "ae6b41037f621845afb198275f16ac8ef935e9d5",
+        "path": "Sum.popclipext"
+      },
+      "digest": "dbdca76c190046c326120e4b14c16fcb68ef58082659ed5abef575cbf6aa06e3",
+      "files": [
+        {
+          "path": "Config.yaml",
+          "sha256": "6b40c8adbe6eb046ab3f7572a582913c7482b169b4e1d937fd84b0ae4cc2fdfb",
+          "size": 597
+        },
+        {
+          "path": "README.md",
+          "sha256": "68f43d044a4e12f61ffde767c1aba14d901636f34f41422ae0f2e722c5fcf892",
+          "size": 317
+        },
+        {
+          "path": "icon.png",
+          "sha256": "74b2fb690159db51fef114bd13d5ada8d71d09f2910a4edf09191ba79d0fc89c",
+          "size": 5095
+        },
+        {
+          "path": "script.ts",
+          "sha256": "7d6518fcdb1422e4eb40198afab7588abb058eacf82e5f5385326a771e96ea0b",
+          "size": 1993
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Sum",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/ttscoff/popclipextensions/tree/ae6b41037f621845afb198275f16ac8ef935e9d5/Sum.popclipext"
+    },
+    {
+      "id": "increment-templated",
+      "name": "Increment Templated",
+      "identifier": "com.brettterpstra.popclip.extension.incrementtemplated",
+      "description": "Repeat text by incrementing template values.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/increment-templated.template.png",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Brett Terpstra",
+      "license": "MIT",
+      "version": "ae6b410",
+      "source": {
+        "repo": "ttscoff/popclipextensions",
+        "commit": "ae6b41037f621845afb198275f16ac8ef935e9d5",
+        "path": "IncrementTemplated.popclipext"
+      },
+      "digest": "b9d9cfeda3d9423f88b883a6d3fbbf8164af33995fda37a28d641bedfc72fdbe",
+      "files": [
+        {
+          "path": "Config.yaml",
+          "sha256": "3f21f7ce09c5625cd411d4caf0ea8c4acdf2f11f12a39d7ab5f588b71cbdb9d9",
+          "size": 414
+        },
+        {
+          "path": "README.md",
+          "sha256": "686cafac5b96966b8982d8e158b65fef03846242d961fe99972dd735eafa11f3",
+          "size": 2098
+        },
+        {
+          "path": "increment.png",
+          "sha256": "adbed83ab82e483210c42b024b1cc2198c994720dc386ef4631d696b9a35b2b8",
+          "size": 3648
+        },
+        {
+          "path": "script.ts",
+          "sha256": "145bc4df715ebd2914bc08c43db11441fe07c6867a17b6a8b65aa2f056496689",
+          "size": 4138
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Increment",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/ttscoff/popclipextensions/tree/ae6b41037f621845afb198275f16ac8ef935e9d5/IncrementTemplated.popclipext"
+    },
+    {
+      "id": "md2mm",
+      "name": "md2mm",
+      "identifier": "com.brettterpstra.popclip.extension.md2mm",
+      "description": "Convert text/outlines to tab-indented outlines for pasting into mind maps.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/md2mm.template.png",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Brett Terpstra",
+      "license": "MIT",
+      "version": "ae6b410",
+      "source": {
+        "repo": "ttscoff/popclipextensions",
+        "commit": "ae6b41037f621845afb198275f16ac8ef935e9d5",
+        "path": "Markdown2Mindmap.popclipext"
+      },
+      "digest": "d091e0d5eda66c87e716a3133bc1ec169a19b0379160372dd99751bea88ad807",
+      "files": [
+        {
+          "path": "Config.yaml",
+          "sha256": "4e74cce87245a98e313e7f840bafeedf5db39675600c9c11c58576921ed3aec6",
+          "size": 298
+        },
+        {
+          "path": "README.md",
+          "sha256": "9894eb32e0c2598b07f17a9c2d819b041e7dc0d4b1399f39bb37edbd7176783c",
+          "size": 447
+        },
+        {
+          "path": "md2mm.png",
+          "sha256": "77465512731118e5c62f613850124e0137ede79b8155b608c4b5bb66d8a71eaa",
+          "size": 5651
+        },
+        {
+          "path": "md2mm.ts",
+          "sha256": "8f0105f1cd9e04de8f38a38ecb4da7f7ed5cbbdd85ef283d5cda87deee34775c",
+          "size": 3492
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "md2mm",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/ttscoff/popclipextensions/tree/ae6b41037f621845afb198275f16ac8ef935e9d5/Markdown2Mindmap.popclipext"
+    },
+    {
+      "id": "code",
+      "name": "Code",
+      "identifier": "com.brettterpstra.popclip.extension.code",
+      "description": "Convert to Markdown inline code or code block.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/code.template.png",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Brett Terpstra",
+      "license": "MIT",
+      "version": "ae6b410",
+      "source": {
+        "repo": "ttscoff/popclipextensions",
+        "commit": "ae6b41037f621845afb198275f16ac8ef935e9d5",
+        "path": "Code.popclipext"
+      },
+      "digest": "ac4b0fa59b6fe82f75792e7a6ce180019722df3904d129366e55444b784dfcca",
+      "files": [
+        {
+          "path": "Config.yaml",
+          "sha256": "03c91a67ea08337bd0ffbf9cf7e8cf2f7c51b12d8816b466285af576f3b126cb",
+          "size": 290
+        },
+        {
+          "path": "README.md",
+          "sha256": "d9cc1a22777a9d10b60ac0f87271a276b1c012dba3c00bc5af50643b4f325b2c",
+          "size": 537
+        },
+        {
+          "path": "code.png",
+          "sha256": "8a7ccb102558d09807b683a5494beeb3166082118a99018fd04d11551709d4e4",
+          "size": 3652
+        },
+        {
+          "path": "code.ts",
+          "sha256": "23e2756c070aff0986f4eacd215e634a8c1d5ed72a0da561acc7a988b737b03a",
+          "size": 555
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "<>",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/ttscoff/popclipextensions/tree/ae6b41037f621845afb198275f16ac8ef935e9d5/Code.popclipext"
+    },
+    {
+      "id": "blockquote",
+      "name": "Blockquote",
+      "identifier": "com.brettterpstra.popclip.extension.blockquote",
+      "description": "Turn indented text into nested Markdown blockquote.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/blockquote.template.png",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Brett Terpstra",
+      "license": "MIT",
+      "version": "ae6b410",
+      "source": {
+        "repo": "ttscoff/popclipextensions",
+        "commit": "ae6b41037f621845afb198275f16ac8ef935e9d5",
+        "path": "Blockquote.popclipext"
+      },
+      "digest": "53f2db62185f3fb5e3f99c7d13ad174204b6474d482499495855219c9690e7da",
+      "files": [
+        {
+          "path": "Config.yaml",
+          "sha256": "05af7b5cc8d41a149772d384584e2348b3d63ebf93f77275da1a0c5774ed21a3",
+          "size": 321
+        },
+        {
+          "path": "README.md",
+          "sha256": "36f46a7fa5b53f43c98ee8aaf1d8fbeeb1cd834f4db57a6fd919523d78f0d2d1",
+          "size": 500
+        },
+        {
+          "path": "blockquote.png",
+          "sha256": "0c7b546c6f06992ea2d2d31903e0dc3126ab693fd9a17901f385b8440d97b63b",
+          "size": 2521
+        },
+        {
+          "path": "blockquote.ts",
+          "sha256": "f61141d8b392f6a6f5001818a68d882ffe629786d5d121dd24dca74fae21ae61",
+          "size": 2168
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Quote",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/ttscoff/popclipextensions/tree/ae6b41037f621845afb198275f16ac8ef935e9d5/Blockquote.popclipext"
+    },
+    {
+      "id": "comment",
+      "name": "Comment",
+      "identifier": "com.brettterpstra.popclip.extension.comment",
+      "description": "Turn selected text into an HTML/code comment.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/comment.template.png",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Brett Terpstra",
+      "license": "MIT",
+      "version": "ae6b410",
+      "source": {
+        "repo": "ttscoff/popclipextensions",
+        "commit": "ae6b41037f621845afb198275f16ac8ef935e9d5",
+        "path": "Comment.popclipext"
+      },
+      "digest": "b84f00e05324006eca5e86a48f2d830ceb95739afe77f4c5552b78df16580b6f",
+      "files": [
+        {
+          "path": "Config.ts",
+          "sha256": "d11fda241f22156344b6ab869b06691b37dcbdd0aee88a568e65695ca244b4f2",
+          "size": 1754
+        },
+        {
+          "path": "README.md",
+          "sha256": "08acc5fdc28e63b14878955b4ec183af4d7e06f766a3941a8908a5a65cd6d597",
+          "size": 230
+        },
+        {
+          "path": "comment.png",
+          "sha256": "0cbab0025fd0fa29db80b757bf76ec4863be1c401ea6770a641326f1526eac59",
+          "size": 2377
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Comment",
+          "type": "folder"
+        }
+      ],
+      "homepage": "https://github.com/ttscoff/popclipextensions/tree/ae6b41037f621845afb198275f16ac8ef935e9d5/Comment.popclipext"
+    },
+    {
+      "id": "editor",
+      "name": "Editor",
+      "identifier": "com.brettterpstra.popclip.extension.editor",
+      "description": "Adds ins, del and mark tags to text",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/editor.template.png",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Brett Terpstra",
+      "license": "MIT",
+      "version": "ae6b410",
+      "source": {
+        "repo": "ttscoff/popclipextensions",
+        "commit": "ae6b41037f621845afb198275f16ac8ef935e9d5",
+        "path": "Editor.popclipext"
+      },
+      "digest": "50a9b288df25baf6721b11eae17b16b5dff98f47368d2686736ca74afa0bd848",
+      "files": [
+        {
+          "path": "Config.ts",
+          "sha256": "cbc9cd0385f1e2ad2b294508e8d5577c739da13e70f3f5efec2ecce966f7830d",
+          "size": 2671
+        },
+        {
+          "path": "README.md",
+          "sha256": "7569218143e23d92f06061be5ce1dcd0f7a3b05d16b9482d1840fcd6b95d58c1",
+          "size": 373
+        },
+        {
+          "path": "icon.png",
+          "sha256": "77e292b53f1aa313619aafecc45bf32a2e4f1ff1594409990d132d39c945e3e2",
+          "size": 2386
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Editor",
+          "type": "folder"
+        }
+      ],
+      "homepage": "https://github.com/ttscoff/popclipextensions/tree/ae6b41037f621845afb198275f16ac8ef935e9d5/Editor.popclipext"
+    },
+    {
+      "id": "hardwrap",
+      "name": "HardWrap",
+      "identifier": "com.brettterpstra.popclip.extension.hardwrap",
+      "description": "Add and remove hard wrapping of paragraphs.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/hardwrap.template.png",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Brett Terpstra",
+      "license": "MIT",
+      "version": "ae6b410",
+      "source": {
+        "repo": "ttscoff/popclipextensions",
+        "commit": "ae6b41037f621845afb198275f16ac8ef935e9d5",
+        "path": "HardWrap.popclipext"
+      },
+      "digest": "4a6728ce5722f4b33b35001d6813e34cd915d3771d92eac3a06b4abbbe4abf1a",
+      "files": [
+        {
+          "path": "Config.ts",
+          "sha256": "895e243ca9055a2ae9f06fe4bf6ca96217a34794262278a0e6b4f973c634c123",
+          "size": 1947
+        },
+        {
+          "path": "README.md",
+          "sha256": "c2b1ee5840cf62e45be1166371b3ec085afaa3edaff65d61506e226db04d54c9",
+          "size": 327
+        },
+        {
+          "path": "hardwrap.png",
+          "sha256": "281da26bdacc80896788de420437148e5725b073b87fff40539f97c8e6b6ea80",
+          "size": 5322
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "HardWrap",
+          "type": "folder"
+        }
+      ],
+      "homepage": "https://github.com/ttscoff/popclipextensions/tree/ae6b41037f621845afb198275f16ac8ef935e9d5/HardWrap.popclipext"
+    },
+    {
+      "id": "nvultra",
+      "name": "nvUltra",
+      "identifier": "com.brettterpstra.popclip.extension.nvultra",
+      "description": "Create a note in nvUltra.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/nvultra.template.png",
+      "category": "Notes & Writing",
+      "status": "listed",
+      "author": "Brett Terpstra",
+      "license": "MIT",
+      "version": "ae6b410",
+      "source": {
+        "repo": "ttscoff/popclipextensions",
+        "commit": "ae6b41037f621845afb198275f16ac8ef935e9d5",
+        "path": "nvUltra.popclipext"
+      },
+      "digest": "3fcada2357465af03620011b2d4d23f9a4f2469868de3120de3583f55221087b",
+      "files": [
+        {
+          "path": "Config.yaml",
+          "sha256": "9f596c4ac791db718313c5330ae8bc9ae8c4b94153859183a7f573a410c19f44",
+          "size": 291
+        },
+        {
+          "path": "README.md",
+          "sha256": "9e98887403a65a91570eb2893e0df29890a28a9311998b856d9028cca7c81772",
+          "size": 396
+        },
+        {
+          "path": "nib.png",
+          "sha256": "7ee4c817a1b2d5bb6aa3e49e1296450b4418746b8361f27c9c082def54427fed",
+          "size": 1181
+        },
+        {
+          "path": "nvUltra.ts",
+          "sha256": "0cb6cdb66800f4479f386e228ba6828ceae62e28985acbafaa69ba702940684c",
+          "size": 419
         },
         {
           "path": "rocket.png",
@@ -11782,11 +12950,598 @@
         }
       ],
       "capabilities": {
-        "scripts": [],
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "nvUltra",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/ttscoff/popclipextensions/tree/ae6b41037f621845afb198275f16ac8ef935e9d5/nvUltra.popclipext"
+    },
+    {
+      "id": "mdlist",
+      "name": "MDList",
+      "identifier": "com.brettterpstra.popclip.extension.mdlist",
+      "description": "Turn lines into Markdown bullet or numbered lists, or clear list markers.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/mdlist.template.png",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Brett Terpstra",
+      "license": "MIT",
+      "version": "db38262",
+      "source": {
+        "repo": "ttscoff/popclipextensions",
+        "commit": "db38262efdb7a8003e5b56ae6231ad305c7d3e62",
+        "path": "MDList.popclipext"
+      },
+      "digest": "d7d2b9efc7c9f199f0800f007339999bbc46c4371778e827ad62b5f7e0abe5cc",
+      "files": [
+        {
+          "path": "Config.ts",
+          "sha256": "3ff90a17f09ee0f7a713526fb0863de87f56ac928ecf055e653b8e3c0910d469",
+          "size": 3383
+        },
+        {
+          "path": "README.md",
+          "sha256": "4140e52b7b0c479467fcafeb19cdbf1abad0736ff69db181d34c6cf25d27a566",
+          "size": 473
+        },
+        {
+          "path": "bulletlist.png",
+          "sha256": "57e18bcb4ca096da9e8f3e0cd80223f1cbb8f9264cd2c3b8a448c33061b56b2a",
+          "size": 4057
+        },
+        {
+          "path": "demo.mp4",
+          "sha256": "e6aef022b007779353caed4c83a848a4174ab4c4c4f0a08176b7b09c7b62d709",
+          "size": 719253
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "MDList",
+          "type": "folder"
+        }
+      ],
+      "homepage": "https://github.com/ttscoff/popclipextensions/tree/db38262efdb7a8003e5b56ae6231ad305c7d3e62/MDList.popclipext"
+    },
+    {
+      "id": "criticmarkup",
+      "name": "CriticMarkup",
+      "identifier": "com.brettterpstra.popclip.extension.criticmarkup",
+      "description": "Insert CriticMarkup",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/criticmarkup.template.png",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Brett Terpstra",
+      "license": "MIT",
+      "version": "aad8fe8",
+      "source": {
+        "repo": "ttscoff/popclipextensions",
+        "commit": "aad8fe85689ca297d5f5ef132ecbc6cced788a38",
+        "path": "CriticMarkup.popclipext"
+      },
+      "digest": "85020f59fe3d289445f4efffae45f0d1cd0d923a8b2f1854c145da17ca37d8f8",
+      "files": [
+        {
+          "path": "Config.ts",
+          "sha256": "e7262d842691619ef5daa8041b2874ae415f76575d279bc36cfadc526559e83d",
+          "size": 2317
+        },
+        {
+          "path": "README.md",
+          "sha256": "bf8df0b1efe4b42b0a5ac9715553450fd7a59aa8f3320ce82dfd1b66199ddd16",
+          "size": 651
+        },
+        {
+          "path": "demo.mp4",
+          "sha256": "52491852ddcab3ba78a210684c10f0eb2d1c14f7fea839cd010d078609e14621",
+          "size": 213936
+        },
+        {
+          "path": "icon.png",
+          "sha256": "e18ffcaa374909e1071ec86a1c3b079f954030279ec05d4fee4d9584445db6d5",
+          "size": 3193
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "CriticMarkup",
+          "type": "folder"
+        }
+      ],
+      "homepage": "https://github.com/ttscoff/popclipextensions/tree/aad8fe85689ca297d5f5ef132ecbc6cced788a38/CriticMarkup.popclipext"
+    },
+    {
+      "id": "ray-so",
+      "name": "ray.so",
+      "identifier": "xyz.phpz.popclip.extension.ray-so",
+      "description": "Generate an image from selected code with ray.so.",
+      "symbol": "filemenu.and.selection",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Seven Yu",
+      "license": "MIT",
+      "version": "77b970c",
+      "source": {
+        "repo": "dofy/PopClip-Extensions",
+        "commit": "77b970cf8da88d65b78c23035a65b2318282bfca",
+        "path": "src/ray.so.popclipext"
+      },
+      "digest": "035afe7ba787c2d2e2e2aaeb6137e64a920ce8000524f326096800c9fdd6a158",
+      "files": [
+        {
+          "path": "Config.json",
+          "sha256": "bd0091db6fca0f70977dd7b6d6bdc27f911f59d4129bcc5824e753454b811bc4",
+          "size": 4505
+        },
+        {
+          "path": "README.md",
+          "sha256": "ebb5cbe3735fcda63fa00c24805f46e2b196eb63dd5fad1bca6ec708392a75d2",
+          "size": 690
+        },
+        {
+          "path": "main.ts",
+          "sha256": "e16d02c29f2cfee579954e1f1f5e141df69c95f57ad84e4ed347a5255e4f123e",
+          "size": 724
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Generate Image",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/dofy/PopClip-Extensions/tree/77b970cf8da88d65b78c23035a65b2318282bfca/src/ray.so.popclipext"
+    },
+    {
+      "id": "mosaic-text",
+      "name": "Mosaic Text",
+      "identifier": "xyz.phpz.popclip.extension.mosaic-text",
+      "description": "Replace selected text with a configurable mosaic character.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/mosaic-text.template.svg",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Seven Yu",
+      "license": "MIT",
+      "version": "77b970c",
+      "source": {
+        "repo": "dofy/PopClip-Extensions",
+        "commit": "77b970cf8da88d65b78c23035a65b2318282bfca",
+        "path": "src/MosaicText.popclipext"
+      },
+      "digest": "77ef4570acf0fea44b26fae1a06e44b1f3d1c269373841bd83f6dac0035ece2e",
+      "files": [
+        {
+          "path": "Config.json",
+          "sha256": "1badd4926a206a372a9073d313c3326af52ebd6ece62fb7cc98af2cf43c41d6f",
+          "size": 1010
+        },
+        {
+          "path": "README.md",
+          "sha256": "47cef221f0481e172526f4da1b22463abce5c8f1e86e0ae7bbde99fa82da38fc",
+          "size": 630
+        },
+        {
+          "path": "mosaic.js",
+          "sha256": "dbbc79af2563c780a2e03a4c7a536bc5a3ed02d380ce14e8959d08af52505d6f",
+          "size": 404
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Mosaic",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/dofy/PopClip-Extensions/tree/77b970cf8da88d65b78c23035a65b2318282bfca/src/MosaicText.popclipext"
+    },
+    {
+      "id": "comment-switcher",
+      "name": "Comment Switcher",
+      "identifier": "xyz.phpz.popclip.extension.comment-switcher",
+      "description": "Comment switcher",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/comment-switcher.template.svg",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Seven Yu",
+      "license": "MIT",
+      "version": "77b970c",
+      "source": {
+        "repo": "dofy/PopClip-Extensions",
+        "commit": "77b970cf8da88d65b78c23035a65b2318282bfca",
+        "path": "src/CommentSwitcher.popclipext"
+      },
+      "digest": "563118dc449edeaa09871de2687455476f86bd90f587cc6114fe3c8277187321",
+      "files": [
+        {
+          "path": "Config.yaml",
+          "sha256": "139f64317af7467b39e915face2ba30f9e9d8f445e3c98c8f25d8f94ea9a4f6d",
+          "size": 830
+        },
+        {
+          "path": "README.md",
+          "sha256": "fece8d03839a4394305ec68d109144d014b4d55f40a88cba12f0349198bb9004",
+          "size": 613
+        },
+        {
+          "path": "comment_switcher.js",
+          "sha256": "11f5a2a51cdb31486d6357dd3d33c10dcfd1c21b561daabb4ad41fb158f0aba8",
+          "size": 537
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Switch",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/dofy/PopClip-Extensions/tree/77b970cf8da88d65b78c23035a65b2318282bfca/src/CommentSwitcher.popclipext"
+    },
+    {
+      "id": "format-json",
+      "name": "Format JSON",
+      "identifier": "xyz.phpz.popclip.extension.format-json",
+      "description": "Format selected JSON text with configurable indentation.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/format-json.template.svg",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Seven Yu",
+      "license": "MIT",
+      "version": "77b970c",
+      "source": {
+        "repo": "dofy/PopClip-Extensions",
+        "commit": "77b970cf8da88d65b78c23035a65b2318282bfca",
+        "path": "src/FormatJSON.popclipext"
+      },
+      "digest": "6f24e4fdb0805b44264f4d8c7d643837e12c308ab59004c548e1b76698f5e7c4",
+      "files": [
+        {
+          "path": "Config.yaml",
+          "sha256": "46b474072062ac8509e6f29bd249a15a3de7ead7d61c22473ea338197bd19ac6",
+          "size": 953
+        },
+        {
+          "path": "README.md",
+          "sha256": "a7aa54337991bdd759a88383cd94c82dd11021fe70785b660dfec648bd54a23a",
+          "size": 402
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Format JSON",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/dofy/PopClip-Extensions/tree/77b970cf8da88d65b78c23035a65b2318282bfca/src/FormatJSON.popclipext"
+    },
+    {
+      "id": "color-conversion",
+      "name": "Color Conversion",
+      "identifier": "xyz.phpz.popclip.extension.rgbhex",
+      "description": "RGB to Hex or Hex to RGB",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/color-conversion.template.png",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Seven Yu",
+      "license": "MIT",
+      "version": "77b970c",
+      "source": {
+        "repo": "dofy/PopClip-Extensions",
+        "commit": "77b970cf8da88d65b78c23035a65b2318282bfca",
+        "path": "src/RGB_HEX.popclipext"
+      },
+      "digest": "7c7703ab3bdd499277d373903c1b8dcee3d36d64a767b80f6ea7efd5dc073c99",
+      "files": [
+        {
+          "path": "Config.yaml",
+          "sha256": "dd1d59e9620a44b792f719fbf0be21a5e1f5f1c84e9c5c963b501ebcc7b5b4ae",
+          "size": 1953
+        },
+        {
+          "path": "README.md",
+          "sha256": "a9827309214f0058c4490dfd55410b173bdf4a86f964506701dff7a82f29f3ac",
+          "size": 551
+        },
+        {
+          "path": "icon.png",
+          "sha256": "901e1ca2608ea858ef9e6a91f56d16351489df441ffc9364dacae92d6d1220b5",
+          "size": 2000
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "RGB to Hex",
+          "type": "js"
+        },
+        {
+          "title": "Hex to RGB",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/dofy/PopClip-Extensions/tree/77b970cf8da88d65b78c23035a65b2318282bfca/src/RGB_HEX.popclipext"
+    },
+    {
+      "id": "password-generator",
+      "name": "Password Generator",
+      "identifier": "org.phpz.popclip.extension.password-generator",
+      "description": "Generate a random password with configurable character classes.",
+      "symbol": "key",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Seven Yu",
+      "license": "MIT",
+      "version": "77b970c",
+      "source": {
+        "repo": "dofy/PopClip-Extensions",
+        "commit": "77b970cf8da88d65b78c23035a65b2318282bfca",
+        "path": "src/GeneratePassword.popclipext"
+      },
+      "digest": "dea559ec47653c666e9bf575e7b187f22e773e2a5407cb96512818f7a66df645",
+      "files": [
+        {
+          "path": "Config.yaml",
+          "sha256": "f44fdca77d5fad2802e387e42145ca340fe3c10432542651dc7fcb5725d065ea",
+          "size": 4153
+        },
+        {
+          "path": "Main.ts",
+          "sha256": "5c9369860d10cd68e590768d6d68dd51e8b6f99068a2b2d163dc92b1ea2ffcd6",
+          "size": 4130
+        },
+        {
+          "path": "README.md",
+          "sha256": "4af75682692b17e110e291e66ba93af72119d3a58ca0c1df531d2892dd9d9ba3",
+          "size": 803
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Generate Password",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/dofy/PopClip-Extensions/tree/77b970cf8da88d65b78c23035a65b2318282bfca/src/GeneratePassword.popclipext"
+    },
+    {
+      "id": "open-github-repo",
+      "name": "Open GitHub Repo",
+      "identifier": "org.phpz.popclip.extension.open-github-repo",
+      "description": "Open a GitHub repository from selected text containing a GitHub URL, AUTHOR/REPO, or a scoped npm package.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/open-github-repo.template.svg",
+      "category": "Search",
+      "status": "listed",
+      "author": "Seven Yu",
+      "license": "MIT",
+      "version": "cb75036",
+      "source": {
+        "repo": "dofy/PopClip-Extensions",
+        "commit": "cb750361ddf79918a6d0e8eb44eef5fc9e0e9a2e",
+        "path": "src/OpenGitHubRepo.popclipext"
+      },
+      "digest": "6c9e342a48c14a10f54d7286478fbd8e3f0bf7ec2f8f72df034812405bce51a0",
+      "files": [
+        {
+          "path": "Config.yaml",
+          "sha256": "d2a0e34ab7b96b971945be4846af142314868505a3bc0d5be0d4e4b04621a472",
+          "size": 1608
+        },
+        {
+          "path": "README.md",
+          "sha256": "8a9c3d194f01f98743c05888a06aeb86fe0750f36436efd3a676f3ed8f65a89a",
+          "size": 1681
+        },
+        {
+          "path": "assets/github.svg",
+          "sha256": "41e122ce3e9f3f03cf2debbb29734e196f17c329f47bdbfea9de07f725d96a33",
+          "size": 1521
+        },
+        {
+          "path": "assets/my-github.svg",
+          "sha256": "df0851e03d3b9dcd6f0f34b65a3a04a96ff1560437e7806f479e97f4e90723e9",
+          "size": 1975
+        },
+        {
+          "path": "lib/GitHubRepo.ts",
+          "sha256": "0eb9dde1cc076e1c814da6a9dab8a05f235353219e215e96c03869c5e644d354",
+          "size": 3047
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": true,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Open GitHub Repo",
+          "type": "dynamic"
+        }
+      ],
+      "homepage": "https://github.com/dofy/PopClip-Extensions/tree/cb750361ddf79918a6d0e8eb44eef5fc9e0e9a2e/src/OpenGitHubRepo.popclipext"
+    },
+    {
+      "id": "ask-boltai",
+      "name": "Ask BoltAI",
+      "identifier": "com.boltai.popclip.ask",
+      "description": "Ask about selected text in Instant Chat. Review before sending.",
+      "symbol": "bolt.badge.automatic.fill",
+      "category": "AI",
+      "status": "listed",
+      "author": "BoltAI",
+      "license": "MIT",
+      "version": "b904535",
+      "source": {
+        "repo": "BoltAI/popclip-extensions",
+        "commit": "b90453516f937e47a77ee05ad8e812a6825a7eff",
+        "path": "source/Ask BoltAI.popclipext"
+      },
+      "digest": "db2535402855a8c17beec8bc34704cd445e74e652539ee7e34d8414793a77b56",
+      "files": [
+        {
+          "path": "Config.json",
+          "sha256": "b3221941141d5b5c43dd61e8e4ec75662bf05c5fd589f9d0fbf25ffb7ec27daf",
+          "size": 1169
+        },
+        {
+          "path": "readme.md",
+          "sha256": "ddf5b334a676439d1d2807b0b5fdea3472e18dbbe4d3ceb1ea688d6838c61fe6",
+          "size": 717
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
         "interpreters": [],
         "network": false,
         "apps": [
-          "net.elasticthreads.nv"
+          "co.podzim.boltai-mobile",
+          "co.podzim.boltai-mobile-setapp"
         ],
         "keyPresses": false,
         "services": [],
@@ -11798,11 +13553,1186 @@
       },
       "actions": [
         {
-          "title": "nvALT",
+          "title": "Ask BoltAI",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/BoltAI/popclip-extensions/tree/b90453516f937e47a77ee05ad8e812a6825a7eff/source/Ask%20BoltAI.popclipext"
+    },
+    {
+      "id": "boltai-workflows",
+      "name": "BoltAI Workflows",
+      "identifier": "com.boltai.popclip.workflow",
+      "description": "Run a BoltAI workflow on selected text.",
+      "symbol": "bolt.fill",
+      "category": "AI",
+      "status": "listed",
+      "author": "BoltAI",
+      "license": "MIT",
+      "version": "b904535",
+      "source": {
+        "repo": "BoltAI/popclip-extensions",
+        "commit": "b90453516f937e47a77ee05ad8e812a6825a7eff",
+        "path": "source/BoltAI.popclipext"
+      },
+      "digest": "de2b0210e83388820c9100150077e4ee09311d7de6f990ffb1551814d7b3024c",
+      "files": [
+        {
+          "path": "Config.json",
+          "sha256": "c3eca9d0c334bd6d7d81f9e7fd6b449b50839b642d54ae091b2b34434ece77aa",
+          "size": 1154
+        },
+        {
+          "path": "readme.md",
+          "sha256": "a78035e482f4ab942a887ce49fbc8a315061eee694479ff6943c4742d2bbd614",
+          "size": 880
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [
+          "co.podzim.boltai-mobile",
+          "co.podzim.boltai-mobile-setapp"
+        ],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "BoltAI Workflows",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/BoltAI/popclip-extensions/tree/b90453516f937e47a77ee05ad8e812a6825a7eff/source/BoltAI.popclipext"
+    },
+    {
+      "id": "remarc",
+      "name": "Remarc",
+      "identifier": "com.metepolat.remarc.popclip",
+      "description": "Comment on the selected text in Remarc.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/remarc.template.svg",
+      "category": "AI",
+      "status": "listed",
+      "author": "Mete Polat",
+      "license": "MIT",
+      "version": "3f6efe1",
+      "source": {
+        "repo": "metedata/Remarc",
+        "commit": "3f6efe12d52d76ef861a12006a37da842ded3f0c",
+        "path": "popclip/Remarc.popclipext"
+      },
+      "digest": "437e94430f7e80446da6f538776e09cedb905ed863a3d0a519b39ae95474bbe3",
+      "files": [
+        {
+          "path": "Config.ts",
+          "sha256": "f9d12eeb04c50fb41f0cd0a212cbe8bfd11bb08e566b13237afc46d52ec6e5d3",
+          "size": 1252
+        },
+        {
+          "path": "readme.md",
+          "sha256": "04f78aa601d62064177516d7d1adb6a7cb1c9d07741aaf680f45ee82fcfe4742",
+          "size": 1554
+        },
+        {
+          "path": "remarc-logo.svg",
+          "sha256": "0826d930e151eae5d0a0fb527a6f388efefa70a3f48f6cc6091826022fb57f7e",
+          "size": 737
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Remarc",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/metedata/Remarc/tree/3f6efe12d52d76ef861a12006a37da842ded3f0c/popclip/Remarc.popclipext"
+    },
+    {
+      "id": "rhymes",
+      "name": "Rhymes",
+      "identifier": "com.alperkara.popclip.rhymes",
+      "description": "Rhymes for the selected word, ranked the way poets use them. Works offline.",
+      "symbol": "music.note",
+      "category": "Translation & Dictionaries",
+      "status": "listed",
+      "author": "Alper Kara",
+      "license": "MIT",
+      "version": "13d9bf3",
+      "source": {
+        "repo": "alperkara20/popclip-rhymes",
+        "commit": "13d9bf30eb962e8e45c74d461b3c75ae9d921b5a",
+        "path": "source/Rhymes.popclipext"
+      },
+      "digest": "012cfecb527d50304b4ef6afa12640ed517eb61ee0b0e125b093908720098b50",
+      "files": [
+        {
+          "path": "Config.json",
+          "sha256": "0e8f2eca0cbd9381aba63ff1f8a82ab5aa7e5dced63cbab4e7d00f96f55f804f",
+          "size": 491
+        },
+        {
+          "path": "data/near.js",
+          "sha256": "67c41b604490e5a5a858fe219685a50ff430b83473ee42f76192ea1e14f03ff3",
+          "size": 231726
+        },
+        {
+          "path": "data/perfect.js",
+          "sha256": "3fe1be7b701da7a06f9945d8448fa165faf3ce69a755c6ce706ae9ccab22f536",
+          "size": 156513
+        },
+        {
+          "path": "readme.md",
+          "sha256": "110f3c2de3110021a0f06aa46fef2cfd61bb31c518674aa3ad88357f1d9ce81f",
+          "size": 3751
+        },
+        {
+          "path": "rhymes.js",
+          "sha256": "5a2c5dd4392116bce109f27f3a12f2b857725e3d5bf57c73920b5ce78fc37c13",
+          "size": 5354
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": true,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Rhymes",
+          "type": "folder"
+        }
+      ],
+      "homepage": "https://github.com/alperkara20/popclip-rhymes/tree/13d9bf30eb962e8e45c74d461b3c75ae9d921b5a/source/Rhymes.popclipext"
+    },
+    {
+      "id": "clarirec",
+      "name": "ClariRec",
+      "identifier": "com.guodongzhu.clarirec.popclip",
+      "description": "Translate the selected text with ClariRec.",
+      "symbol": "translate",
+      "category": "Translation & Dictionaries",
+      "status": "listed",
+      "author": "idklaws",
+      "license": "MIT",
+      "version": "17c5c47",
+      "source": {
+        "repo": "idklaws/clarirec-popclip",
+        "commit": "17c5c471011ed1c75b05009468d2e3cc9aac5140",
+        "path": "source/ClariRec.popclipext"
+      },
+      "digest": "4e1332b0a80fcd2e52d04aa77dd07a8d6db5de8bb127143f1b6ef4c65b321d05",
+      "files": [
+        {
+          "path": "Config.yaml",
+          "sha256": "7a7eefe984772ba0a508e9249f8bd86a96f1ba10268c4095657de3fcd52891e6",
+          "size": 435
+        },
+        {
+          "path": "Readme.md",
+          "sha256": "4eada4d330464921d837f38b45b300571a9ae18c4ba1ebd1285e34f2561b8da6",
+          "size": 1847
+        }
+      ],
+      "capabilities": {
+        "scripts": [],
+        "interpreters": [],
+        "network": false,
+        "apps": [
+          "com.guodongzhu.ClariRec"
+        ],
+        "keyPresses": false,
+        "services": [
+          "Translate with ClariRec"
+        ],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "ClariRec",
+          "type": "service"
+        }
+      ],
+      "homepage": "https://github.com/idklaws/clarirec-popclip/tree/17c5c471011ed1c75b05009468d2e3cc9aac5140/source/ClariRec.popclipext"
+    },
+    {
+      "id": "bob",
+      "name": "Bob",
+      "identifier": "com.ripperhe.popclip.extension.Bob",
+      "description": "Translate text with Bob.",
+      "category": "Translation & Dictionaries",
+      "featured": true,
+      "status": "listed",
+      "author": "ripperhe",
+      "license": "GPL-3.0",
+      "version": "179d721",
+      "source": {
+        "repo": "ripperhe/bob-popclip",
+        "commit": "179d7218a4df08a3f72617b932cefb17ec2732f6",
+        "path": "source"
+      },
+      "digest": "d49331760b915fbf5ce30ceaf4a5764e47d40c05d69fc079a7b3648fa7e48c3c",
+      "files": [
+        {
+          "path": "Bob.applescript",
+          "sha256": "04da12742abbe8ac8aab22546311fa13b6712ebcfddf4c61026f6dc77bf06177",
+          "size": 73
+        },
+        {
+          "path": "Bob.png",
+          "sha256": "a646029ee2edcca70da9f8b9289ced0b8454ae4d1d9eae73a7649c8db00718f5",
+          "size": 13191
+        },
+        {
+          "path": "Config.json",
+          "sha256": "d290b190748be8357aa1ac15b48f9175f75f3d4a1a9c552babb14436a0f30a61",
+          "size": 379
+        },
+        {
+          "path": "README.md",
+          "sha256": "a2bfe08ae29ece0249c85770270407a77ce471bd9a526519b5bb4b23d725cb0a",
+          "size": 1134
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "applescript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [
+          "Bob",
+          "com.hezongyidev.Bob",
+          "com.ripperhe.Bob"
+        ],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Bob",
+          "type": "applescript"
+        }
+      ],
+      "homepage": "https://github.com/ripperhe/bob-popclip/tree/179d7218a4df08a3f72617b932cefb17ec2732f6/source"
+    },
+    {
+      "id": "doublememory",
+      "name": "DoubleMemory",
+      "identifier": "com.idealistspace.doublememory.popclip",
+      "description": "Save the selected text or link to DoubleMemory.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/doublememory.template.svg",
+      "category": "Notes & Writing",
+      "status": "listed",
+      "author": "idealistspace",
+      "license": "MIT",
+      "version": "6e48b25",
+      "source": {
+        "repo": "idealistspace/doublememory-popclip",
+        "commit": "6e48b25375db61abdac9973559737bc7f346b017",
+        "path": "DoubleMemory.popclipext"
+      },
+      "digest": "e9532c4b9ea6512a0c7b8916605b05f4c56070db159c59231218b85c380e31a5",
+      "files": [
+        {
+          "path": "Config.json",
+          "sha256": "b45dee6c8b07af0c24f0ad93a9fe9e3c69a18068e1cec7dd37fbb0c658e813d6",
+          "size": 689
+        },
+        {
+          "path": "icon.svg",
+          "sha256": "cf4164fc14b61400310b8e15d8d09fccf7f03916f516bb47b028669ec018ed8f",
+          "size": 406
+        },
+        {
+          "path": "readme.md",
+          "sha256": "52285b01a410bb7bf402ff3614db728466a0ee536a4754e6d0ad4b7cd8ef2f7c",
+          "size": 858
+        },
+        {
+          "path": "save.js",
+          "sha256": "2aac559a5d155d9618e56a4fd88b13f88f20dafede24f44f56c0228239d89333",
+          "size": 995
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Save to DoubleMemory",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/idealistspace/doublememory-popclip/tree/6e48b25375db61abdac9973559737bc7f346b017/DoubleMemory.popclipext"
+    },
+    {
+      "id": "jotaid",
+      "name": "Jotaid",
+      "identifier": "com.jotaid.popclip",
+      "description": "Save the selection to your Jotaid Inbox, with its source and time.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/jotaid.template.svg",
+      "category": "Notes & Writing",
+      "status": "listed",
+      "author": "Leeron Zhang",
+      "license": "Apache-2.0",
+      "version": "6b7c938",
+      "source": {
+        "repo": "leeronzhang/jotaid-popclip",
+        "commit": "6b7c93857ad79ceb3464739df59ed8790f985635",
+        "path": "Jotaid.popclipext"
+      },
+      "digest": "4e62490ae18454fba47d2cb276c863f4822b9a7550c9aa233f6425607230d28f",
+      "files": [
+        {
+          "path": "Config.yaml",
+          "sha256": "1d1bf55e57ab98d27980daa8220fb1d76357e136569d9091ec85b3d610cb15d3",
+          "size": 2757
+        },
+        {
+          "path": "clip.zsh",
+          "sha256": "5ea79bb4ddead07e2f7be296db844006d9c4d1bf24da62aaaefbc9cbaba94345",
+          "size": 4046
+        },
+        {
+          "path": "demo.mp4",
+          "sha256": "6ae07841eee5cb482d38b1acc64213fa6c901c33db0b2e9dcf090bbbc61e35a5",
+          "size": 856033
+        },
+        {
+          "path": "jotaid.svg",
+          "sha256": "520d78896d335953cf7aaa5563420794cee2d49c3e505090857f1ad89b593585",
+          "size": 1028
+        },
+        {
+          "path": "readme.md",
+          "sha256": "3a04825611c82a4a66735e13a6b9f121c6be2663b9a4e5e22f613c0cd1d0b2df",
+          "size": 5156
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "shell"
+        ],
+        "interpreters": [
+          "/bin/zsh"
+        ],
+        "network": false,
+        "apps": [
+          "np.Jotaid"
+        ],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Jotaid",
+          "type": "shell"
+        }
+      ],
+      "homepage": "https://github.com/leeronzhang/jotaid-popclip/tree/6b7c93857ad79ceb3464739df59ed8790f985635/Jotaid.popclipext"
+    },
+    {
+      "id": "convert-currency",
+      "name": "Convert Currency",
+      "identifier": "com.poxylizard.popclip.currencyconverter",
+      "description": "Convert individual fiat amounts or every currency amount in selected text to your chosen currency.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/convert-currency.template.svg",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Boback Shahsafdari",
+      "license": "MIT",
+      "version": "166a354",
+      "source": {
+        "repo": "bobacks/popclip-convert-currency",
+        "commit": "166a354e7b18fbd6b4b06d258ca0aac70e8f66aa",
+        "path": "Convert Currency.popclipext"
+      },
+      "digest": "7bf9c6a68d58ad856f732bf12f75ca6642b3a37e5fec3a7f68c9b83103274f79",
+      "files": [
+        {
+          "path": "Config.json",
+          "sha256": "fac9e7c3ce927bf40fbef139953bd594302e300b71ab73b32df741bfb8e9f365",
+          "size": 1748
+        },
+        {
+          "path": "README.md",
+          "sha256": "0e9ebc815af5ff02a82d982c48e403af1c814ba9fbca113515773af1e9e50b5e",
+          "size": 4606
+        },
+        {
+          "path": "_comprehensive-test.mjs",
+          "sha256": "15267babec4c4495cac11f9d6de33a84c7cc6581035a305153f74d1b40473664",
+          "size": 6644
+        },
+        {
+          "path": "_integration-test.mjs",
+          "sha256": "c2797c575e6835b7b399a6e2ba37e2f9bf2d47318fa4ae29d364fbce19e06a86",
+          "size": 1375
+        },
+        {
+          "path": "_runtime-test.ts",
+          "sha256": "21306365f2edfa8bdfc84b141154cc543f34ffa2bcf7f03526045b056e15e764",
+          "size": 556
+        },
+        {
+          "path": "_test.mjs",
+          "sha256": "db0327267434c4324dd2f4497517af5a81b7dca09b4853af488b475939afb4f5",
+          "size": 4672
+        },
+        {
+          "path": "currency.ts",
+          "sha256": "6014774be582b0112e697bba41d9f0a451a8985175f41ab2d6de2be1138b0325",
+          "size": 5375
+        },
+        {
+          "path": "demo.gif",
+          "sha256": "1440b3115784a1bbac34cae02bdc741065a43913fb1b6061fc05a9583edfdf18",
+          "size": 167937
+        },
+        {
+          "path": "format.ts",
+          "sha256": "41ecb5dabf3822864ef6d9c20b12121705474552c7a13349c13d4acc8ecf5c1f",
+          "size": 728
+        },
+        {
+          "path": "parser.ts",
+          "sha256": "f2c367a35a78ff8c21546f71810a8a4ea09c7b803839685778c45a4c95aa3b54",
+          "size": 12142
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": true,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Convert Currency",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/bobacks/popclip-convert-currency/tree/166a354e7b18fbd6b4b06d258ca0aac70e8f66aa/Convert%20Currency.popclipext"
+    },
+    {
+      "id": "currency-converter",
+      "name": "Currency Converter",
+      "identifier": "com.losokao.popclip.extension.currency-converter",
+      "description": "Convert currency amounts with real-time exchange rates",
+      "symbol": "dollarsign.circle.fill",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Loso Kao",
+      "license": "MIT",
+      "version": "0bef48e",
+      "source": {
+        "repo": "loliboso/popclip-currency-converter",
+        "commit": "0bef48ea615d8723cb9bcd704f451d19c2ced80a",
+        "path": "CurrencyConverter.popclipext"
+      },
+      "digest": "f0685a67389fae192a8ff8496186e038fc8ca39c383ed9bded0a615b12e42f5f",
+      "files": [
+        {
+          "path": "Config.json",
+          "sha256": "32f39c37b03cfaf247a0bb3e2c453e815c778c1c4229fb6ea8c6bff0c194626d",
+          "size": 1943
+        },
+        {
+          "path": "README.md",
+          "sha256": "865060a6e89e9e2b75acaa0e2d0f16f052d231d2a51ab2d3c1a1d9f988a92101",
+          "size": 4976
+        },
+        {
+          "path": "currency-converter.js",
+          "sha256": "778f8ef1ba3131292e97dab74e5b8e53a3327dd0f1e600193f8281e4154b7103",
+          "size": 6101
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": true,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Currency Converter",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/loliboso/popclip-currency-converter/tree/0bef48ea615d8723cb9bcd704f451d19c2ced80a/CurrencyConverter.popclipext"
+    },
+    {
+      "id": "straighten-quotes",
+      "name": "Straighten Quotes",
+      "identifier": "com.pilotmoon.popclip.extension.straighten-quotes",
+      "description": "Convert \"smart\" quotation marks and apostrophes to ASCII quotes.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/straighten-quotes.template.svg",
+      "category": "Text Tools",
+      "status": "listed",
+      "author": "Nick Moore",
+      "license": "No license specified",
+      "version": "2c2beca",
+      "source": {
+        "repo": "pilotmoon/test-pcx-repo",
+        "commit": "2c2becac0c5261129ca5c838b304fbf4bbf1f168",
+        "path": "source/StraightenQuotes.popclipext"
+      },
+      "digest": "9dbf4ac350e15f30b3eab853f8e2d72391e0418ac4fb6407018daba491d1f63f",
+      "files": [
+        {
+          "path": "Config.ts",
+          "sha256": "541256678b18255b2e4207befde0975b8c78456b7d177ec6190893b3c092bbe9",
+          "size": 1653
+        },
+        {
+          "path": "Readme.md",
+          "sha256": "694f602a4e4fa52aaa769dac491850ab23cd5276a823a704ddb37f63ea5fa1e3",
+          "size": 296
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Straighten Quotes",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://github.com/pilotmoon/test-pcx-repo/tree/2c2becac0c5261129ca5c838b304fbf4bbf1f168/source/StraightenQuotes.popclipext"
+    },
+    {
+      "id": "open-in-browser",
+      "name": "Open in Browser",
+      "identifier": "com.pilotmoon.popclip.extension.open-in-browser",
+      "description": "Open URLs in a specific browser. Supports Safari, ChatGPT Atlas, Chrome, Chromium, Firefox, Arc, Brave, Comet, Dia, DEVONagent Pro, DuckDuckGo, Ecosia, Edge, Helium, iCab, Mullvad, Opera, Orion, Quark, Tor Browser, Vivaldi, Waterfox and Zen.",
+      "category": "Links & Read Later",
+      "featured": true,
+      "status": "listed",
+      "author": "Nick Moore",
+      "license": "CC-BY-SA-4.0",
+      "version": "1ce4c08",
+      "source": {
+        "repo": "pilotmoon/popclipweb",
+        "commit": "1ce4c088b7406f29fd1a2dde43fd3430af738f00",
+        "path": "extras/OpenInBrowser.popclipext"
+      },
+      "digest": "e88a8f607c43b1acc1445aa29a8eaaf803700ab6dab6f206a92f0aac48ea77ef",
+      "files": [
+        {
+          "path": "Config.ts",
+          "sha256": "ca87e5af7da0bc6f45ae35863fed2851289d5941c304295cd592923cc23a98e8",
+          "size": 2240
+        },
+        {
+          "path": "Readme.md",
+          "sha256": "edf396ff5e7e7011125e565d134480d927f49966c8efad6407b9a3ef0656af60",
+          "size": 1703
+        },
+        {
+          "path": "browsers.json",
+          "sha256": "d0821206823374f52a87f848b2ee16f0c57e8b04cc1a11beac452e7def47ab2b",
+          "size": 14615
+        },
+        {
+          "path": "icons/M.png",
+          "sha256": "99a8a62d9ceec24cdd18a4875aaa493443e4b9818e8560708b9133a60c14e0cd",
+          "size": 7695
+        },
+        {
+          "path": "icons/arc-browser.svg",
+          "sha256": "d3366567abd8e6ea040a65002b6a8303bfa3e59f2575484dac768248944c9251",
+          "size": 6233
+        },
+        {
+          "path": "icons/chromium.svg",
+          "sha256": "ef1ee5b9a2affe302a9347d210c63a618386d71501a6003ddf0a7b8dfe4d95d0",
+          "size": 753
+        },
+        {
+          "path": "icons/comet-browser.svg",
+          "sha256": "534f39b533038b0c2147a8818c8275724482855fe572bcb2cac353934854626f",
+          "size": 2235
+        },
+        {
+          "path": "icons/compass.svg",
+          "sha256": "fa775f44246da6b0727201620a6e32eca4e0c7f9488df171b6ac829684e6343d",
+          "size": 287
+        },
+        {
+          "path": "icons/devontech-dap.svg",
+          "sha256": "4c642a8a3187e26fad3932f0c7d53e17bbe396116cc24bcbab924f402022220b",
+          "size": 2775
+        },
+        {
+          "path": "icons/dia.svg",
+          "sha256": "b94cf3f0a623c795b196ec8380e06ee8f8078b72d68504ec87c56243a636b5b0",
+          "size": 906
+        },
+        {
+          "path": "icons/fa6-brands-chrome.svg",
+          "sha256": "93a0a0cdb745ffdaf5d3f431d54bd3bd4ba968535e45727abfc927ef31a00b75",
+          "size": 493
+        },
+        {
+          "path": "icons/fa6-brands-edge.svg",
+          "sha256": "37c3c6d1362c410d24fb303a0849db59733da412affdcff2532a61c092e689e0",
+          "size": 929
+        },
+        {
+          "path": "icons/fa6-brands-firefox-browser.svg",
+          "sha256": "5ee8c3910eec5674b1d235b243d03c3383a349d5da275f58edcc66b0030b2375",
+          "size": 1119
+        },
+        {
+          "path": "icons/fa6-brands-opera.svg",
+          "sha256": "7a06151b3c15775994f44064a4f4f7055493bc7cb4b7bc9040da6fd32d9994e3",
+          "size": 449
+        },
+        {
+          "path": "icons/fa6-brands-safari.svg",
+          "sha256": "baa43ae7740f790be1f56cf812619e8cd8462243b22c77d1ecdf3e8351d711ed",
+          "size": 1570
+        },
+        {
+          "path": "icons/helium-browser.svg",
+          "sha256": "26136da0d5fd944a0aaecf3c6188afb46b0eadc0c378a93a6e08739443359692",
+          "size": 518
+        },
+        {
+          "path": "icons/icab.svg",
+          "sha256": "a080309ad39b7e91ddeeb6febf12aa816097eefc90f4662152c8f0f01551353e",
+          "size": 308
+        },
+        {
+          "path": "icons/mdi-star-four-points-circle-outline.svg",
+          "sha256": "df6a914211de2815fdc960c0bd9fb1b0f447dd77e31b5d72563f6b9f25899168",
+          "size": 602
+        },
+        {
+          "path": "icons/quark-icon.svg",
+          "sha256": "22e8a899bf90f3ee1f5e6d9628013f98a50a8e838c2f3d3849b3f664db20e247",
+          "size": 501
+        },
+        {
+          "path": "icons/simple-icons-brave.svg",
+          "sha256": "7d9999fb296da81acb975cccd4c496ef8fd877eaafa538a0f020de5b7e6bd6ba",
+          "size": 2085
+        },
+        {
+          "path": "icons/simple-icons-duckduckgo.svg",
+          "sha256": "384a22f41784a894975b436362e6b76cc4ba9640677b3f59f5b689e4a4212dae",
+          "size": 1885
+        },
+        {
+          "path": "icons/simple-icons-ecosia.svg",
+          "sha256": "19b9bdcd666c6270f0dbb3324aa28b00de48cbead94ac6f2f073e8dfd929ec50",
+          "size": 996
+        },
+        {
+          "path": "icons/simple-icons-torbrowser.svg",
+          "sha256": "ef4d50571a694ac867087e675673b32d19cebfed677e51ce21222796df7fdf0e",
+          "size": 444
+        },
+        {
+          "path": "icons/simple-icons-vivaldi.svg",
+          "sha256": "fe1d717d9e09d6851e15b80bc7490d4a83b7dc780c2114d744d64855abe96b91",
+          "size": 698
+        },
+        {
+          "path": "icons/waterfox.png",
+          "sha256": "f00eab178f572a49e15d294f7485acb9ae7a1e68f5abfaf0cbbbee1e6f7651a8",
+          "size": 8001
+        },
+        {
+          "path": "icons/zen_logo_icon_black.svg",
+          "sha256": "ca46e8b516d123a5dadbccfeb951f20576ce618219693db2fa0f019c1e80c5ab",
+          "size": 1326
+        },
+        {
+          "path": "mdi-open-in-browser.svg",
+          "sha256": "70e1b0b59478a4cf99e41f8167314c53df2c2b9a1de1aa49b6a6a47de5edff17",
+          "size": 272
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": true,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Open in Browser",
+          "type": "dynamic"
+        }
+      ],
+      "homepage": "https://github.com/pilotmoon/popclipweb/tree/1ce4c088b7406f29fd1a2dde43fd3430af738f00/extras/OpenInBrowser.popclipext"
+    },
+    {
+      "id": "ip-lookup",
+      "name": "IP Lookup",
+      "identifier": "com.vicliu.popclip.ip-lookup",
+      "description": "Look up basic information about an IPv4 or IPv6 address.",
+      "symbol": "network",
+      "category": "Search",
+      "status": "listed",
+      "author": "Vic Liu",
+      "license": "No license specified",
+      "version": "1a8c229",
+      "source": {
+        "repo": "iamvicliu/PopClip-Extensions",
+        "commit": "1a8c229b47f5b233c640b498ebbe5274ed247207",
+        "path": "IPLookup.popclipext"
+      },
+      "digest": "e21a196c5c6c3cdc64633f38b48525d1e1dd2cb49c0d27e7c37c2c67cef79a64",
+      "files": [
+        {
+          "path": "Config.yaml",
+          "sha256": "745bfec20e3de4dcd2c7c047c96bf21ccd7f20032aa28849d2de84080c7766b0",
+          "size": 848
+        },
+        {
+          "path": "README.md",
+          "sha256": "6f660dccc6ee3a48dc2addd4b994de816f5e071c18f36b0a7dcd51e2228a9173",
+          "size": 1552
+        },
+        {
+          "path": "lookup.js",
+          "sha256": "0fbc3c1f0f8437fc1ab2e0af5e2a3944c6b8b5f0006d08f045758e6f0ae75e8f",
+          "size": 2900
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": true,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [
+          "ipinfo.io"
+        ],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Lookup IP",
+          "type": "js"
+        },
+        {
+          "title": "Open Details",
           "type": "url"
         }
       ],
-      "homepage": "https://github.com/pilotmoon/PopClip-Extensions/tree/ceab6507aa0b362aa152a80ca97651dcb5949ab6/source/nvALT.popclipext"
+      "homepage": "https://github.com/iamvicliu/PopClip-Extensions/tree/1a8c229b47f5b233c640b498ebbe5274ed247207/IPLookup.popclipext"
+    },
+    {
+      "id": "tenor",
+      "name": "Tenor",
+      "identifier": "com.pilotmoon.popclip.extension.tenor",
+      "description": "Search GIFs on Tenor",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/tenor.template.svg",
+      "category": "Search",
+      "status": "listed",
+      "author": "Nick Moore",
+      "license": "No license specified",
+      "version": "9649461",
+      "source": {
+        "repo": "gist:pilotmoon/0ac9cf50e8684711ee19e21ad61c0a61",
+        "commit": "9649461155a922edf15aed527dcf1cc57a46e41a",
+        "path": "",
+        "snippet": "popclip-tenor.yaml"
+      },
+      "digest": "6c9fa88a1bd593fef141609037425ec414053ae8d6c8cbcc1e1de921ae98567f",
+      "files": [
+        {
+          "path": "popclip-tenor.yaml",
+          "sha256": "4af9c9297349b35d5f4bea3e675e15a7b7f61e2d249221c5ab3298eb3f274288",
+          "size": 247
+        }
+      ],
+      "capabilities": {
+        "scripts": [],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [
+          "tenor.com"
+        ],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Tenor",
+          "type": "url"
+        }
+      ],
+      "homepage": "https://gist.github.com/pilotmoon/0ac9cf50e8684711ee19e21ad61c0a61/9649461155a922edf15aed527dcf1cc57a46e41a"
+    },
+    {
+      "id": "devdocs",
+      "name": "DevDocs",
+      "identifier": "com.pilotmoon.popclip.extension.devdocs",
+      "description": "Search devdocs.io",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/devdocs.template.svg",
+      "category": "Search",
+      "status": "listed",
+      "author": "Nick Moore",
+      "license": "No license specified",
+      "version": "4d4141a",
+      "source": {
+        "repo": "gist:pilotmoon/a2db1766eba2e461cba01df6123a0c08",
+        "commit": "4d4141aec714e095d2e5dd0682dbaf027916f60e",
+        "path": "",
+        "snippet": "#popclip-devdocs.yaml"
+      },
+      "digest": "81bf6855a80f843f2f4b8d2e28528e66f69096fefb4c604b7032bc02d30ffec2",
+      "files": [
+        {
+          "path": "#popclip-devdocs.yaml",
+          "sha256": "f78aa739e1ddfe6b5c0afc156489b49195103894c5de316e5e2baeda1908f4e2",
+          "size": 250
+        }
+      ],
+      "capabilities": {
+        "scripts": [],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [
+          "devdocs.io"
+        ],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "DevDocs",
+          "type": "url"
+        }
+      ],
+      "homepage": "https://gist.github.com/pilotmoon/a2db1766eba2e461cba01df6123a0c08/4d4141aec714e095d2e5dd0682dbaf027916f60e"
+    },
+    {
+      "id": "openstreetmap",
+      "name": "OpenStreetMap",
+      "identifier": "com.pilotmoon.popclip.extension.openstreetmap",
+      "description": "Search OpenStreetMap",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/openstreetmap.template.svg",
+      "category": "Search",
+      "status": "listed",
+      "author": "Nick Moore",
+      "license": "No license specified",
+      "version": "154ffec",
+      "source": {
+        "repo": "gist:pilotmoon/d98fe30b5906dfa1e39cedd6dc6bc25d",
+        "commit": "154ffec9f0f004ad40f8fe9a81c9e76df4c03b8e",
+        "path": "",
+        "snippet": "#popclip-osm.yaml"
+      },
+      "digest": "29fbae7f102d7939b36ae2d160a0c444efcf3ab26714413be509a7152185a4cc",
+      "files": [
+        {
+          "path": "#popclip-osm.yaml",
+          "sha256": "11b5d288f9e8f1c6da2f9880ffd29071571ae51c385331663184914f74c27508",
+          "size": 318
+        }
+      ],
+      "capabilities": {
+        "scripts": [],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [
+          "www.openstreetmap.org"
+        ],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "OpenStreetMap",
+          "type": "url"
+        }
+      ],
+      "homepage": "https://gist.github.com/pilotmoon/d98fe30b5906dfa1e39cedd6dc6bc25d/154ffec9f0f004ad40f8fe9a81c9e76df4c03b8e"
+    },
+    {
+      "id": "iconify",
+      "name": "Iconify",
+      "identifier": "com.pilotmoon.popclip.extension.iconify",
+      "description": "Search icons on Iconify",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/iconify.template.svg",
+      "category": "Search",
+      "status": "listed",
+      "author": "Nick Moore",
+      "license": "No license specified",
+      "version": "1c2f016",
+      "source": {
+        "repo": "gist:pilotmoon/46f1ec946c666c1da3b40169a75fb32e",
+        "commit": "1c2f016a34271f71b583d3d9bb8c13a309c7fa28",
+        "path": "",
+        "snippet": "#popclip-iconify.yaml"
+      },
+      "digest": "676a08e741b9a1f9626afbb9d04cf85e60528691bcb2418f2da0dbae82c6b317",
+      "files": [
+        {
+          "path": "#popclip-iconify.yaml",
+          "sha256": "2c130d24e8b03551d94e81c5e537566c36613c317cb4c61a8b28c5d4ce1e2dd1",
+          "size": 286
+        }
+      ],
+      "capabilities": {
+        "scripts": [],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [
+          "icon-sets.iconify.design"
+        ],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Iconify",
+          "type": "url"
+        }
+      ],
+      "homepage": "https://gist.github.com/pilotmoon/46f1ec946c666c1da3b40169a75fb32e/1c2f016a34271f71b583d3d9bb8c13a309c7fa28"
+    },
+    {
+      "id": "raycast",
+      "name": "Raycast",
+      "identifier": "com.pilotmoon.popclip.extension.raycast",
+      "description": "Activate Raycast with the selected text.",
+      "icon": "https://app.enconvo.com/popbar-extensions/icons/raycast.template.svg",
+      "category": "Apps & Files",
+      "status": "listed",
+      "author": "Nick Moore",
+      "license": "No license specified",
+      "version": "e92c9e7",
+      "source": {
+        "repo": "gist:pilotmoon/bd2e75750f4cfbedf832192eeb762c7f",
+        "commit": "e92c9e7d1bd73ccb633a53b1be51b928648a0b16",
+        "path": "",
+        "snippet": "#pcx-raycast.js"
+      },
+      "digest": "4ad6f238abc0a9e2524473a845980fb7d739c4272d66f82b9720aba513a43151",
+      "files": [
+        {
+          "path": "#pcx-raycast.js",
+          "sha256": "880287e54b83f31b553b6def41a6bb9baa0f20de7194487c933e73e83c086b3f",
+          "size": 439
+        },
+        {
+          "path": "readme.md",
+          "sha256": "40be5e1549d4182e7b57a1f927f8391b7367efe5a8a0a8ae6dac801fe0148f3d",
+          "size": 370
+        }
+      ],
+      "capabilities": {
+        "scripts": [
+          "javascript"
+        ],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": true,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Raycast",
+          "type": "js"
+        }
+      ],
+      "homepage": "https://gist.github.com/pilotmoon/bd2e75750f4cfbedf832192eeb762c7f/e92c9e7d1bd73ccb633a53b1be51b928648a0b16"
+    },
+    {
+      "id": "letterboxd",
+      "name": "Letterboxd",
+      "identifier": "com.pilotmoon.popclip.extension.letterboxd",
+      "description": "Search films on Letterboxd",
+      "category": "Search",
+      "status": "listed",
+      "author": "Nick Moore",
+      "license": "No license specified",
+      "version": "31556d8",
+      "source": {
+        "repo": "gist:pilotmoon/d1134cbdfcf90370a9e6ff507da59f8f",
+        "commit": "31556d8a00add7e0be28a302e3967b93c1f4dbfa",
+        "path": "",
+        "snippet": "pcx-letterboxd.yaml"
+      },
+      "digest": "4b6e22b5ac3122b9f590d92a8296ebf7ec6a0fdc2d362d9cc9003e0dd2c6d458",
+      "files": [
+        {
+          "path": "letterboxd-mask.svg",
+          "sha256": "a671c77a5f109ba611c11dbc394c3ea58d8c47526e7a4ad25d29dec95f72c2f6",
+          "size": 2044
+        },
+        {
+          "path": "pcx-letterboxd.yaml",
+          "sha256": "983846edef58725cf59d41e6f15f3ee7039ccf4806ae5e037d8491cc1c2faedb",
+          "size": 246
+        },
+        {
+          "path": "readme.md",
+          "sha256": "6712c3167e2e3d414ae2871089c6f41f5f9a68e5b90b9200ef4fa734793ad94c",
+          "size": 157
+        }
+      ],
+      "capabilities": {
+        "scripts": [],
+        "interpreters": [],
+        "network": false,
+        "apps": [],
+        "keyPresses": false,
+        "services": [],
+        "shortcuts": [],
+        "urlHosts": [
+          "letterboxd.com"
+        ],
+        "secrets": false,
+        "dynamic": false,
+        "auth": false
+      },
+      "actions": [
+        {
+          "title": "Letterboxd",
+          "type": "url"
+        }
+      ],
+      "homepage": "https://gist.github.com/pilotmoon/d1134cbdfcf90370a9e6ff507da59f8f/31556d8a00add7e0be28a302e3967b93c1f4dbfa"
     }
   ]
 }
